@@ -1,5 +1,27 @@
-Build/
+# macOS #
+
+# General
 .DS_Store
-Thumbs.db
-*.tmp
-*.bak
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+
+
+# FMOD Studio
+.cache/
+.user/
+fmod_editor.log
+fmod.log
+Metadata/Workspace.xml
