@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{cb598f94-1c85-4050-9cec-347a622336f5}">
+		<property name="assetPath">
+			<value>Cartoon, Musical, Success, Fanfare SND15406.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.4119166666666665</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{57c78101-ad3c-4484-9be3-2e5a91b50b8e}</destination>
+		</relationship>
+	</object>
+</objects>
