@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{64f088c6-d72f-49c5-b4bf-b99366e21edf}">
+		<property name="assetPath">
+			<value>Placeholders/Soundly Voice Designer, Abbi 54.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.4151041666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bf258112-7989-49b9-a200-870b9ba1f939}</destination>
+		</relationship>
+	</object>
+</objects>
