@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{308ff6cf-8c63-4377-b454-c6a33bb4a6ea}">
+	<object class="AudioFile" id="{db756ee8-95ee-4b73-a839-4e9045021920}">
 		<property name="assetPath">
-			<value>placeholders/Soundly Voice Designer, Abbi 55.wav</value>
+			<value>player/footsteps/player_footstep_wood-001.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.81243750000000003</value>
+			<value>0.56312499999999999</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{bf258112-7989-49b9-a200-870b9ba1f939}</destination>
