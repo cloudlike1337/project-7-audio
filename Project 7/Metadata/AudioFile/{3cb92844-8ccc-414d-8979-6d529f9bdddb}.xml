@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{2707229f-d488-45d5-9d37-b9c0f119bdaa}">
+	<object class="AudioFile" id="{3cb92844-8ccc-414d-8979-6d529f9bdddb}">
 		<property name="assetPath">
-			<value>Soundly Voice Designer, Abbi 100.wav</value>
+			<value>ambience/amb_global/Ambience, Seaside, Sea Birds, Town Ambience, Berlevåg, Norway SND153491 1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>1.2076249999999999</value>
+			<value>3.8069791666666668</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{bf258112-7989-49b9-a200-870b9ba1f939}</destination>
