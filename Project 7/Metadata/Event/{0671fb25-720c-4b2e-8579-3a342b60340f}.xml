@@ -173,7 +173,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{887fa7ca-6105-49dd-93fa-7efceb840708}">
 		<property name="volume">
-			<value>-6</value>
+			<value>-7</value>
 		</property>
 		<property name="name">
 			<value>bed</value>
@@ -219,7 +219,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{65c5dc10-5b7d-43f5-abd0-919196accb72}">
 		<property name="volume">
-			<value>1.5</value>
+			<value>0.5</value>
 		</property>
 		<property name="name">
 			<value>squeak</value>
@@ -262,7 +262,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{825eae3f-2200-4660-bfa1-728f28504356}">
 		<property name="volume">
-			<value>-6</value>
+			<value>-2</value>
 		</property>
 		<property name="name">
 			<value>squeak long</value>
@@ -332,9 +332,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{715d105d-6d7c-4002-8b41-00e0ab279132}">
-		<property name="volume">
-			<value>5.5</value>
-		</property>
 		<property name="name">
 			<value>car horn</value>
 		</property>
@@ -372,6 +369,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{cf85d30d-052e-41b0-9941-e0e9ee7a6b39}">
+		<property name="volume">
+			<value>2.5</value>
+		</property>
 		<property name="name">
 			<value>pigeon</value>
 		</property>
