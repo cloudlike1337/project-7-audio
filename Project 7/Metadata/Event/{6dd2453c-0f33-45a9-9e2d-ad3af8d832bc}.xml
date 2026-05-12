@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{6dd2453c-0f33-45a9-9e2d-ad3af8d832bc}">
 		<property name="name">
-			<value>player_footstep</value>
+			<value>sfx_player_footstep</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -122,6 +122,7 @@
 	<object class="MixerBusEffectChain" id="{6397abbb-b90a-4e3a-94bd-a08958783d52}">
 		<relationship name="effects">
 			<destination>{140c4b02-e5ca-4edf-b971-45b79465af5d}</destination>
+			<destination>{0b982ce0-a13d-484c-b966-868217d4770e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{3a3af887-2315-4929-ba13-a0e1010c1df7}" />
@@ -147,4 +148,9 @@
 	</object>
 	<object class="MixerBusFader" id="{bdd09c6a-49f3-47ef-a0fb-15894df31024}" />
 	<object class="MixerBusFader" id="{140c4b02-e5ca-4edf-b971-45b79465af5d}" />
+	<object class="ThreeEQEffect" id="{0b982ce0-a13d-484c-b966-868217d4770e}">
+		<property name="lowGain">
+			<value>-5</value>
+		</property>
+	</object>
 </objects>
