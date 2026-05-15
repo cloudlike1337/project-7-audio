@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{7d36a813-1276-4f51-aa4f-6c68edf41719}">
-		<property name="assetPath">
-			<value>traffic light/sfx_traffic_light_press.wav</value>
-		</property>
+	<object class="AudioFile" id="{6442b2df-68e4-448d-ab37-ad0429c03bfa}">
+		<property name="assetPath" />
 		<property name="frequencyInKHz">
-			<value>96</value>
+			<value>48</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.45833333333333331</value>
+			<value>1.9299999999999999</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{bf258112-7989-49b9-a200-870b9ba1f939}</destination>

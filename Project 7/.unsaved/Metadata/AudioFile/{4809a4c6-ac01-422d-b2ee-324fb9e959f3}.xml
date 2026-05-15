@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{c1bc4758-ef72-451d-92f6-68934c22ab68}">
+	<object class="AudioFile" id="{4809a4c6-ac01-422d-b2ee-324fb9e959f3}">
 		<property name="assetPath">
-			<value>piano/sfx_death_piano-001.wav</value>
+			<value>traffic light/sfx_traffic_light_press.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>15.897333333333334</value>
+			<value>0.095125000000000001</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{bf258112-7989-49b9-a200-870b9ba1f939}</destination>
