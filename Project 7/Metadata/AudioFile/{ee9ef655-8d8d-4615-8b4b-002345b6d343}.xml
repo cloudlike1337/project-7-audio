@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{ee9ef655-8d8d-4615-8b4b-002345b6d343}">
 		<property name="assetPath">
-			<value>voi_bike/voi_bike_asphalt_loop.wav</value>
+			<value>voi_bike/sfx_voi_bike_asphalt_loop.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

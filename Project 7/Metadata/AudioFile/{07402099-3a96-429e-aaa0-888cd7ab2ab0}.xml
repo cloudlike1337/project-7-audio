@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{ceacb216-24ea-4c0b-a1d3-93180c83521a}">
+	<object class="AudioFile" id="{07402099-3a96-429e-aaa0-888cd7ab2ab0}">
 		<property name="assetPath">
-			<value>laptop/sfx_laptop_interact.wav</value>
+			<value>piano/sfx_death_piano-002.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>3</value>
+			<value>5.8448333333333338</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{bf258112-7989-49b9-a200-870b9ba1f939}</destination>

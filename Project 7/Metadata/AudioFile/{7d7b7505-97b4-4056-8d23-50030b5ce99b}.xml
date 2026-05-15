@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{7d7b7505-97b4-4056-8d23-50030b5ce99b}">
 		<property name="assetPath">
-			<value>intercom/intercom_interact.wav</value>
+			<value>intercom/sfx_intercom_interact.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

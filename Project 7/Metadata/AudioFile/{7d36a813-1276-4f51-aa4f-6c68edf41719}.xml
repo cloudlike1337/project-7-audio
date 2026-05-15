@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{7d36a813-1276-4f51-aa4f-6c68edf41719}">
 		<property name="assetPath">
-			<value>traffic light/traffic_light_press.wav</value>
+			<value>traffic light/sfx_traffic_light_press.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>

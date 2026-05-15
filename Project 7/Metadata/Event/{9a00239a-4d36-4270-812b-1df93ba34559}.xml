@@ -70,6 +70,9 @@
 		<relationship name="modules">
 			<destination>{b9d4b256-15a5-43b2-923e-955c7414e6b5}</destination>
 		</relationship>
+		<relationship name="markers">
+			<destination>{60746bd8-774d-44d7-b84f-2e0ba7fa6174}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{1bf71186-0b7f-49d1-a7d1-17efa1204aa3}">
 		<relationship name="effectChain">
@@ -95,6 +98,9 @@
 		<property name="playlistMode">
 			<value>2</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{302b40ff-a846-483e-b2be-ef87ab419cb4}</destination>
+		</relationship>
 		<relationship name="sounds">
 			<destination>{ac639281-d7c4-4a4a-9d94-1b60f8134577}</destination>
 			<destination>{2c3822b7-a807-4d53-b0fd-5c3715198a35}</destination>
@@ -114,6 +120,20 @@
 			<destination>{1bf71186-0b7f-49d1-a7d1-17efa1204aa3}</destination>
 		</relationship>
 	</object>
+	<object class="LoopRegion" id="{60746bd8-774d-44d7-b84f-2e0ba7fa6174}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>1.302</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{050b780d-fe32-4a24-8649-4909b47b53c5}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{c5d94402-af8f-4037-81ef-c8552622dac1}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{2b6f6342-7bb1-43e6-8efa-e55f9f4f11e6}">
 		<relationship name="effects">
 			<destination>{6f202deb-dab7-4f96-bfc6-2e2bce376873}</destination>
@@ -121,6 +141,11 @@
 	</object>
 	<object class="MixerBusPanner" id="{83956950-22da-45d6-91ca-2450eea40ea0}" />
 	<object class="MixerBusFader" id="{f85394b2-72c5-4fa6-8178-0803162b8ad3}" />
+	<object class="RandomizerModulator" id="{302b40ff-a846-483e-b2be-ef87ab419cb4}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{ac639281-d7c4-4a4a-9d94-1b60f8134577}">
 		<relationship name="audioFile">
 			<destination>{b0bbd342-ba33-427a-be47-d02e96d395d0}</destination>
