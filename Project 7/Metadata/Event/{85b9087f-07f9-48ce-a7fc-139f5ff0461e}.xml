@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{85b9087f-07f9-48ce-a7fc-139f5ff0461e}">
 		<property name="name">
-			<value>death_banana_peel</value>
+			<value>sfx_death_banana_peel</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>

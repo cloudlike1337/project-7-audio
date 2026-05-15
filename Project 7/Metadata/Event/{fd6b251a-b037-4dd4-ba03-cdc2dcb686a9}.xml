@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{fd6b251a-b037-4dd4-ba03-cdc2dcb686a9}">
 		<property name="name">
-			<value>traffic_light_press</value>
+			<value>sfx_traffic_light_press</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>

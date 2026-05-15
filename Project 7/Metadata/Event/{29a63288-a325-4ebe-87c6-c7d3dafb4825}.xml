@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{29a63288-a325-4ebe-87c6-c7d3dafb4825}">
 		<property name="name">
-			<value>death_cement</value>
+			<value>sfx_death_cement</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>

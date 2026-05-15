@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{bc048ede-5ab5-4267-8c03-0673832aa3fa}">
 		<property name="name">
-			<value>death_voi</value>
+			<value>sfx_death_voi</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>

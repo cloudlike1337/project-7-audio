@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{8bd48051-c57b-4a47-98eb-d0440c64d24f}">
 		<property name="name">
-			<value>npc_speak</value>
+			<value>sfx_npc_speak</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
