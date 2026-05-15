@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{4bb1e315-6a8f-44ff-afcb-947a40cbcbe0}">
-		<property name="assetPath">
-			<value>laptop/dieg_laptop_minigame.wav</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
-		</property>
+	<object class="AudioFile" id="{52a759d7-fedc-4aa0-90d1-bd96cdb50572}">
+		<property name="assetPath" />
 		<property name="frequencyInKHz">
 			<value>48</value>
 		</property>
@@ -14,7 +9,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>46.545437499999998</value>
+			<value>1.1757083333333334</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{bf258112-7989-49b9-a200-870b9ba1f939}</destination>
