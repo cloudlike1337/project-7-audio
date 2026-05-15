@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{88988e2e-c115-47ea-aa77-007629978427}">
 		<property name="assetPath">
-			<value>Soundly Voice Designer, Abbi 79.wav</value>
+			<value>placeholders/Soundly Voice Designer, Abbi 79.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
