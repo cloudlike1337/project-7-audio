@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{ab3556df-d1e4-4673-bf84-d6f247a8d471}">
+		<property name="name">
+			<value>Reverb Dummy</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{399dec58-68b5-4184-8793-a2ff57bd7721}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{54e22e2e-d2cd-4dbf-ada3-069ff0f0d3d9}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{aad8e44d-5551-43a0-8a93-39c84858f2a4}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{399dec58-68b5-4184-8793-a2ff57bd7721}">
+		<relationship name="effects">
+			<destination>{63388d93-5a64-4f61-a1c5-d7a8cf33f73f}</destination>
+			<destination>{3eb0a662-89db-4c12-aed9-6cc1a390703d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{54e22e2e-d2cd-4dbf-ada3-069ff0f0d3d9}" />
+	<object class="MixerBusFader" id="{63388d93-5a64-4f61-a1c5-d7a8cf33f73f}" />
+	<object class="MixerSend" id="{3eb0a662-89db-4c12-aed9-6cc1a390703d}">
+		<property name="level">
+			<value>0</value>
+		</property>
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{2aba7ef0-4f30-4414-8d64-8e18c4605c2c}</destination>
+		</relationship>
+	</object>
+</objects>
