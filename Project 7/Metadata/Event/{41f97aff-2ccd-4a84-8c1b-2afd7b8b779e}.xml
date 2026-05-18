@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{41f97aff-2ccd-4a84-8c1b-2afd7b8b779e}">
 		<property name="name">
-			<value>sfx_korvdude_interact_korv</value>
+			<value>vo_korvdude_interact_korv</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
