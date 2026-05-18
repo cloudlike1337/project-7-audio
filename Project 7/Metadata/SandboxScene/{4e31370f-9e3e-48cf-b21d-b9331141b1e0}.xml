@@ -17,49 +17,34 @@
 			<destination>{bb52a640-ce6c-4c20-80fe-ad5a71bf38c6}</destination>
 		</relationship>
 		<relationship name="emitters">
-			<destination>{493b430b-b2cd-4be0-b79b-b23eca4eb1b8}</destination>
-			<destination>{0862213a-b254-4999-839d-3eeb1851a51c}</destination>
+			<destination>{4281c402-9570-4173-a064-14ad7b889505}</destination>
 		</relationship>
 	</object>
 	<object class="MarkerTrack" id="{5d878f42-f808-436f-93b7-e888ce0390b5}" />
 	<object class="Timeline" id="{98d35e9a-8bc4-4319-97d0-beda96d723a9}" />
 	<object class="SandboxListener" id="{bb52a640-ce6c-4c20-80fe-ad5a71bf38c6}">
 		<property name="positionX">
-			<value>-9.95000076</value>
+			<value>-3.97500062</value>
 		</property>
 		<property name="positionZ">
-			<value>4.6500001</value>
+			<value>4.05000019</value>
 		</property>
 		<property name="rotationY">
-			<value>-70.7916489</value>
+			<value>103.726982</value>
 		</property>
 	</object>
-	<object class="SandboxEmitter" id="{493b430b-b2cd-4be0-b79b-b23eca4eb1b8}">
+	<object class="SandboxEmitter" id="{4281c402-9570-4173-a064-14ad7b889505}">
 		<property name="positionX">
-			<value>-11.1999998</value>
+			<value>-4.2249999</value>
 		</property>
 		<property name="positionZ">
-			<value>5.0250001</value>
+			<value>1.07500005</value>
 		</property>
 		<property name="rotationY">
-			<value>108.593292</value>
+			<value>-161.178833</value>
 		</property>
 		<relationship name="event">
-			<destination>{aff165c3-06c7-49df-9832-209a088ca48f}</destination>
-		</relationship>
-	</object>
-	<object class="SandboxEmitter" id="{0862213a-b254-4999-839d-3eeb1851a51c}">
-		<property name="positionX">
-			<value>-11.2250004</value>
-		</property>
-		<property name="positionZ">
-			<value>5.05000019</value>
-		</property>
-		<property name="rotationY">
-			<value>121.374977</value>
-		</property>
-		<relationship name="event">
-			<destination>{be045d4a-f6a8-44f7-b2d3-2011a8a6e96d}</destination>
+			<destination>{0671fb25-720c-4b2e-8579-3a342b60340f}</destination>
 		</relationship>
 	</object>
 </objects>
