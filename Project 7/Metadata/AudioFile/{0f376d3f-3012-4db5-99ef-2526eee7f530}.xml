@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{ab526a40-5e6e-4fc7-b2fb-eeb63b16aa15}">
+	<object class="AudioFile" id="{0f376d3f-3012-4db5-99ef-2526eee7f530}">
 		<property name="assetPath">
-			<value>pant/sfx_pant_insert.wav</value>
+			<value>pant/can_insert-001.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
