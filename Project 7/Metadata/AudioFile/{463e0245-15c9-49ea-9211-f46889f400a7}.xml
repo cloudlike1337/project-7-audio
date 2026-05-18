@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{463e0245-15c9-49ea-9211-f46889f400a7}">
 		<property name="assetPath">
-			<value>hagsätra.wav</value>
+			<value>subway/hagsätra.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

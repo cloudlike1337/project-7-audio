@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{8d8c2cee-e5f5-4881-8720-a8cfc5e517b2}">
 		<property name="assetPath">
-			<value>dörrarna stängs.wav</value>
+			<value>subway/dörrarna stängs.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
