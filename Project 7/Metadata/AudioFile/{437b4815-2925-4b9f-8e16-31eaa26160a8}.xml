@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{437b4815-2925-4b9f-8e16-31eaa26160a8}">
 		<property name="assetPath">
 			<value>traffic light/sfx_traffic_light_go.wav</value>

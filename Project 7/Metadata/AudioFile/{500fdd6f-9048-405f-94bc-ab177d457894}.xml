@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{500fdd6f-9048-405f-94bc-ab177d457894}">
 		<property name="assetPath">
 			<value>ambience/amb_global/Air, Hiss, Car Tire Puncture, Leak, Fast SND33945 1.wav</value>

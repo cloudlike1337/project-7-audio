@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{230e62b0-69b3-49b3-896f-3a0844281f01}">
 		<property name="assetPath">
 			<value>ambience/amb_korvkiosk_loop/Chemicals, Acid, Bubbly Acid, Sizzle SND122542.wav</value>

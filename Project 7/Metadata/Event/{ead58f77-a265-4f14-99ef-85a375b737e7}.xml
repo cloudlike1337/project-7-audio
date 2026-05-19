@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{ead58f77-a265-4f14-99ef-85a375b737e7}">
 		<property name="name">
 			<value>vo_buy_korv_success</value>

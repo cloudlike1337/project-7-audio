@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="EncodableAsset" id="{ae33357a-7974-4b36-9fe0-baede1f89940}">
 		<property name="assetPath">
 			<value>coin/</value>

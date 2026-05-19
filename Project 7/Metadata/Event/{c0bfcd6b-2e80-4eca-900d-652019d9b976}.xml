@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{c0bfcd6b-2e80-4eca-900d-652019d9b976}">
 		<property name="name">
 			<value>amb_milkstand_loop</value>

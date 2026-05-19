@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{07402099-3a96-429e-aaa0-888cd7ab2ab0}">
 		<property name="assetPath">
 			<value>piano/sfx_death_piano-002.wav</value>

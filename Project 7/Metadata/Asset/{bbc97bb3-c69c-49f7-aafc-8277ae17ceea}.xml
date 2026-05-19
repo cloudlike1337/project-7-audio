@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="EncodableAsset" id="{bbc97bb3-c69c-49f7-aafc-8277ae17ceea}">
 		<property name="assetPath">
 			<value>placeholders/</value>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{dc5d267a-712c-494a-a0a6-446ba87a3983}">
 		<property name="name">
 			<value>sfx_voi_bike_loop</value>
@@ -86,8 +86,8 @@
 	</object>
 	<object class="Timeline" id="{ec0c4a4a-c254-4f04-9480-aba042b429be}">
 		<relationship name="modules">
-			<destination>{2af51a12-38f8-4b99-8160-030c87ace0f3}</destination>
 			<destination>{9745f62b-b58d-4ccb-9fba-e80a7ac30cc0}</destination>
+			<destination>{2af51a12-38f8-4b99-8160-030c87ace0f3}</destination>
 			<destination>{856f63ed-baf9-4306-b26f-47b576007e82}</destination>
 		</relationship>
 		<relationship name="markers">

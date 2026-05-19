@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{ab3556df-d1e4-4673-bf84-d6f247a8d471}">
 		<property name="name">
 			<value>Reverb Dummy</value>

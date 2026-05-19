@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{9a00239a-4d36-4270-812b-1df93ba34559}">
 		<property name="name">
 			<value>sfx_npc_walk</value>

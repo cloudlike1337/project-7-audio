@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{7d992bd8-03fc-4620-96fe-39350d0aaf2e}">
 		<property name="assetPath">
 			<value>ambience/amb_global/Birds, Misc, Pigeon, Cooing SND153890 4.wav</value>

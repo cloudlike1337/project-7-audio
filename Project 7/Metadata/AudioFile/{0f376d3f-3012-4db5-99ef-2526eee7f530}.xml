@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{0f376d3f-3012-4db5-99ef-2526eee7f530}">
 		<property name="assetPath">
 			<value>pant/can_insert-001.wav</value>

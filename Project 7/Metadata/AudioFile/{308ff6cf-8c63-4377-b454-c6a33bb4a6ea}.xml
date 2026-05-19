@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{308ff6cf-8c63-4377-b454-c6a33bb4a6ea}">
 		<property name="assetPath">
 			<value>placeholders/Soundly Voice Designer, Abbi 55.wav</value>

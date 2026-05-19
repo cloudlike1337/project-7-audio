@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="EncodableAsset" id="{87f4c51c-a671-4c22-9eeb-32eddd9de7a9}">
 		<property name="assetPath">
 			<value>ambience/amb_korvkiosk_loop/</value>

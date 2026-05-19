@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{9d1c35b8-0ff5-49f6-b23c-8a6b44c15f43}">
 		<property name="assetPath">
 			<value>ambience/amb_global/Vehicles, Horn, Horn, 90s Car SND67873.wav</value>

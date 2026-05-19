@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="SandboxScene" id="{c011a44c-f260-4c7b-84fb-92fc80173697}">
 		<property name="name">
 			<value>Test</value>

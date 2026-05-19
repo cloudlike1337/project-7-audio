@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{06ecc0fc-1c2a-40a1-8d49-2ff3cc3ff703}">
 		<property name="name">
 			<value>sfx_seagull_idle_flap</value>

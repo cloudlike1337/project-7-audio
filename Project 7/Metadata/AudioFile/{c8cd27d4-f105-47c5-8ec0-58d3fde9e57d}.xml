@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{c8cd27d4-f105-47c5-8ec0-58d3fde9e57d}">
 		<property name="assetPath">
 			<value>korvkiosk/vo_buy_korv_fail-001.wav</value>

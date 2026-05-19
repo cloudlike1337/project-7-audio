@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{017cf07b-df92-4158-91b4-183d615667af}">
 		<property name="name">
 			<value>sfx_traffic_light_go</value>

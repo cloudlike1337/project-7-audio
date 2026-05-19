@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{ee9ef655-8d8d-4615-8b4b-002345b6d343}">
 		<property name="assetPath">
 			<value>voi_bike/sfx_voi_bike_asphalt_loop.wav</value>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{e730f4b2-cbed-4835-ba6c-33222fd56ea9}">
 		<property name="name">
 			<value>dieg_laptop_loop</value>

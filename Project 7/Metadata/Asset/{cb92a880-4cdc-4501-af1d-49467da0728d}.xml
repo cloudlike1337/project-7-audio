@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="EncodableAsset" id="{cb92a880-4cdc-4501-af1d-49467da0728d}">
 		<property name="assetPath">
 			<value>player/</value>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{95b37b67-ac44-40d5-bdc3-c4b842b3ba8c}">
 		<property name="assetPath">
 			<value>seagull/sfx_seagull_idle_flap_1.wav</value>
