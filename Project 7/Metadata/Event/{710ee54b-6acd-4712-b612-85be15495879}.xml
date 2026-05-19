@@ -5,7 +5,7 @@
 			<value>sfx_traffic_light_wait</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{92b31d8b-83a8-4b80-9553-c7bb3c0debb6}</destination>
@@ -129,6 +129,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{973d0c2e-e0a1-4a3c-9475-084b70dfcf99}">
 		<relationship name="effects">
+			<destination>{fb6a87d3-a8ed-43f1-aa36-8dc401a6f92f}</destination>
 			<destination>{3a773ae2-d1cf-4622-b56f-130e02841de4}</destination>
 		</relationship>
 	</object>
@@ -140,6 +141,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6cf48eb5-9128-4e89-9c5d-bd24040af75e}" />
+	<object class="SpatialiserEffect" id="{fb6a87d3-a8ed-43f1-aa36-8dc401a6f92f}" />
 	<object class="MixerBusFader" id="{3a773ae2-d1cf-4622-b56f-130e02841de4}" />
 	<object class="MixerBusFader" id="{0b21250b-d872-4543-a38f-0f11350f9b4e}" />
 </objects>
