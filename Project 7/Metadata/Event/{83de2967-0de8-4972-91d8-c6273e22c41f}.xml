@@ -99,7 +99,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d01e7ac2-1cb8-4451-973b-bd53b95169a7}" />
-	<object class="ProgrammerSound" id="{ef122277-2c61-4342-a3d3-72d3f4cfd449}" />
+	<object class="ProgrammerSound" id="{ef122277-2c61-4342-a3d3-72d3f4cfd449}">
+		<relationship name="placeholder">
+			<destination>{df3a8941-4eb7-44e4-b9b7-482359692fde}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{218a7e22-c6bd-4fac-993b-ada81d4f1a8b}" />
 	<object class="MixerBusFader" id="{1a5304ae-c10a-4d38-9b6d-672e34f15374}" />
 </objects>
