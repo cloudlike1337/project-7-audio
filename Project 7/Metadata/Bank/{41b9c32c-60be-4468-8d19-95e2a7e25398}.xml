@@ -16,7 +16,7 @@
 			<value>narrator_dialogue</value>
 		</property>
 		<property name="sourceDirectory">
-			<value>../../../../Desktop/REAPER PROJECTS/Projekt 7/TGA - Projekt 7/Narrator/voicelines</value>
+			<value>../voicelines/voicelines</value>
 		</property>
 	</object>
 </objects>

@@ -5,7 +5,7 @@
 			<value>sfx_intercom_interact</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{1f80ee14-4fb3-43cc-9453-1f8f77d891fa}</destination>
@@ -64,6 +64,7 @@
 			<destination>{e8283eab-9925-4407-b296-3ba23b1bd3e8}</destination>
 			<destination>{fe4cdf50-eec8-402e-b29a-50184be831a5}</destination>
 			<destination>{5bad7b8c-3461-4980-a9b7-d73e8c1cd229}</destination>
+			<destination>{0bdf8580-bff3-4e28-b78e-c12a6dda44fd}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{ce54a2c5-3be1-4bed-bcfb-f7bbe07fa8e0}</destination>
@@ -85,6 +86,7 @@
 			<destination>{fe4cdf50-eec8-402e-b29a-50184be831a5}</destination>
 			<destination>{f94bb4cd-416a-4ecb-87ab-3da21e5d0bff}</destination>
 			<destination>{5bad7b8c-3461-4980-a9b7-d73e8c1cd229}</destination>
+			<destination>{0bdf8580-bff3-4e28-b78e-c12a6dda44fd}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{d024b38d-41c1-4dba-b302-65d75a2962e0}">
@@ -106,7 +108,7 @@
 	<object class="MixerBusPanner" id="{33ae5f90-2d9e-4438-87c2-abb216929ebf}" />
 	<object class="SingleSound" id="{e8283eab-9925-4407-b296-3ba23b1bd3e8}">
 		<property name="length">
-			<value>5</value>
+			<value>0.875</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{7d7b7505-97b4-4056-8d23-50030b5ce99b}</destination>
@@ -114,7 +116,7 @@
 	</object>
 	<object class="SingleSound" id="{fe4cdf50-eec8-402e-b29a-50184be831a5}">
 		<property name="start">
-			<value>5</value>
+			<value>2.5</value>
 		</property>
 		<property name="length">
 			<value>0.59999999999999964</value>
@@ -128,13 +130,27 @@
 	</object>
 	<object class="SingleSound" id="{5bad7b8c-3461-4980-a9b7-d73e8c1cd229}">
 		<property name="start">
-			<value>7.4130625000000032</value>
+			<value>4.9130625000000041</value>
 		</property>
 		<property name="length">
 			<value>0.498</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{0be307c1-ab53-4616-9d13-80526cb1cd39}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{0bdf8580-bff3-4e28-b78e-c12a6dda44fd}">
+		<property name="start">
+			<value>1.25</value>
+		</property>
+		<property name="length">
+			<value>1.25</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>3.375</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{7d7b7505-97b4-4056-8d23-50030b5ce99b}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{ce54a2c5-3be1-4bed-bcfb-f7bbe07fa8e0}">
@@ -153,7 +169,7 @@
 	</object>
 	<object class="MultiSound" id="{6cdf4e8d-6cf2-441e-9c27-c0029621bd4d}">
 		<property name="start">
-			<value>5.5999999999999988</value>
+			<value>3.0999999999999996</value>
 		</property>
 		<property name="length">
 			<value>1.8130625</value>
@@ -167,7 +183,7 @@
 	</object>
 	<object class="SingleSound" id="{f94bb4cd-416a-4ecb-87ab-3da21e5d0bff}">
 		<property name="start">
-			<value>7.9110625000000061</value>
+			<value>5.411062500000007</value>
 		</property>
 		<property name="length">
 			<value>0.59999999999999964</value>
@@ -195,6 +211,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{0a787b59-0409-40c3-a04e-cdb6b67c5c28}">
 		<relationship name="effects">
+			<destination>{3651b703-ad5c-4203-9e75-e09538ba00a4}</destination>
 			<destination>{2b14296e-6582-4a4f-8e8a-046152447200}</destination>
 		</relationship>
 	</object>
@@ -232,6 +249,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5672bbd8-381d-4979-a30d-be8592f788b9}" />
+	<object class="SpatialiserEffect" id="{3651b703-ad5c-4203-9e75-e09538ba00a4}" />
 	<object class="MixerBusFader" id="{2b14296e-6582-4a4f-8e8a-046152447200}" />
 	<object class="MixerBusFader" id="{2c80fed2-0b00-4fa7-8b9e-1f024c86b043}" />
 	<object class="MixerBusFader" id="{33b5a893-4ed4-42eb-9155-a264d8df56ee}" />

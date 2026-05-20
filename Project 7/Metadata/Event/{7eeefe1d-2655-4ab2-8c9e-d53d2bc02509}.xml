@@ -5,7 +5,7 @@
 			<value>vo_buy_korv_fail</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c1a0a885-a411-451c-ac2c-d516e110963f}</destination>
@@ -53,7 +53,7 @@
 			<destination>{7dd838c8-9dbb-4ff2-9d68-696cdfe2b8ef}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{aad8e44d-5551-43a0-8a93-39c84858f2a4}</destination>
+			<destination>{ab3556df-d1e4-4673-bf84-d6f247a8d471}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{84b803ca-9bdb-4681-81af-98a8ac29e687}">
@@ -120,6 +120,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{4f370fbe-1193-46b7-9b34-e5ed05edbe1a}">
 		<relationship name="effects">
+			<destination>{2270d0c2-1486-48ab-94b0-7aaa69468de8}</destination>
 			<destination>{2bf3cff3-5412-4020-9520-97e303399eef}</destination>
 		</relationship>
 	</object>
@@ -141,6 +142,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1ae602d2-41ce-4b8b-b381-39489d5ddde1}" />
+	<object class="SpatialiserEffect" id="{2270d0c2-1486-48ab-94b0-7aaa69468de8}" />
 	<object class="MixerBusFader" id="{2bf3cff3-5412-4020-9520-97e303399eef}" />
 	<object class="MixerBusFader" id="{c502900e-f21c-4e78-97fa-afe4f7397234}" />
 </objects>
