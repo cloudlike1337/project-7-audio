@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{a5e1294a-62d3-4d9c-9934-7054d91c8ded}">
 		<property name="assetPath">
-			<value>pant_machine_idle_loop.wav</value>
+			<value>pant/pant_machine_idle_loop.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

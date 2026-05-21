@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{85a403a4-64db-423a-abb8-42366b3583f9}">
+	<object class="AudioFile" id="{13ddac48-6b44-4a63-b760-c6569bf0ec11}">
 		<property name="assetPath">
-			<value>pant/sfx_pant_machine_idle_loop.wav</value>
+			<value>pant/can_pickup-001.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>10</value>
+			<value>0.5</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{bf258112-7989-49b9-a200-870b9ba1f939}</destination>

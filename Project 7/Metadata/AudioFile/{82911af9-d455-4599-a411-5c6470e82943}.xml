@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{c71a82e5-6791-4079-9bd4-67b3c666a8d8}">
+	<object class="AudioFile" id="{82911af9-d455-4599-a411-5c6470e82943}">
 		<property name="assetPath">
-			<value>pant/pant_insert_broken_speaker-002.wav</value>
+			<value>ambience/amb_global/global_ambience_low.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +14,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.5</value>
+			<value>38</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{bf258112-7989-49b9-a200-870b9ba1f939}</destination>

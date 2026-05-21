@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{fb83b5ec-6137-44df-92df-fcdfeb618dc6}">
+	<object class="AudioFile" id="{3f58d8ae-45e8-4f03-bebe-c559cde3313f}">
 		<property name="assetPath">
-			<value>pant/pant_insert_broken_speaker-004.wav</value>
+			<value>Ambience, Residential, City, Airbric, Hum SND152462.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>48</value>
+			<value>96</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.5</value>
+			<value>47.099302083333335</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{bf258112-7989-49b9-a200-870b9ba1f939}</destination>
