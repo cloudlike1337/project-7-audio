@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{16d15b5a-3dc1-470c-add0-3a28ecc18132}">
+		<property name="name">
+			<value>Traffic Light</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{b7611fa6-6522-4d99-bdda-0ae3f333a508}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{43bdd2cd-587f-4a53-ab80-e16c6f49c530}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{ab3556df-d1e4-4673-bf84-d6f247a8d471}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{b7611fa6-6522-4d99-bdda-0ae3f333a508}">
+		<relationship name="effects">
+			<destination>{71bd3e5c-f808-489c-b65e-90cfe4b6a936}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{43bdd2cd-587f-4a53-ab80-e16c6f49c530}" />
+	<object class="MixerBusFader" id="{71bd3e5c-f808-489c-b65e-90cfe4b6a936}" />
+</objects>

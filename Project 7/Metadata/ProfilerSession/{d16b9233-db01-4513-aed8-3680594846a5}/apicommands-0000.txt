@@ -1,0 +1,47 @@
+Playback::frame, 0
+Playback::version, 2, 131849
+#
+# FMOD v2.03.09 command capture
+#   System::setSoftwareChannels(numsoftwarechannels: 64)
+#   System::setDSPBufferSize(bufferlength: 512, numbuffers: 4)
+#   System::setSoftwareFormat(samplerate: 48000, speakermode: 6, numrawspeakers: 6)
+#   System::setAdvancedSettings(settings: {maxMPEGCodecs: 0, maxADPCMCodecs: 0, maxXMACodecs: 0, maxVorbisCodecs: 0, maxAT9Codecs: 0, maxFADPCMCodecs: 0, maxOpusCodecs: 0
+#       ASIONumChannels: 0, vol0virtualvol: -1, defaultDecodeBufferSize: 400, geometryMaxFadeTime: 0,
+#       distanceFilterCenterFreq: 1500, reverb3Dinstance: 0, DSPBufferPoolSize: 8, resamplerMethod: 2, randomSeed: 0})
+#   Studio::System::setAdvancedSettings(settings: {commandqueuesize: 32768, handleinitialsize: 65536, studioupdateperiod: 20, idlesampledatapoolsize: 262144})
+#   Studio::System::initialize(maxchannels: 1024, studioflags: 0x00000024, flags: 0x00520000)
+#
+Playback::frame, 0
+# Printing initial instance state
+Bank::getEventListItem, 0, 0, {0671fb25-720c-4b2e-8579-3a342b60340f}, 2097248
+Bank::getEventListItem, 0, 1, {b7091f47-543e-4dc2-878e-fe03b8f18d40}, 2099552
+Bank::getEventListItem, 0, 2, {83de2967-0de8-4972-91d8-c6273e22c41f}, 2100576
+Bank::getEventListItem, 0, 3, {9a00239a-4d36-4270-812b-1df93ba34559}, 2098784
+Bank::getEventListItem, 0, 4, {736a53aa-4286-4c7f-95c5-b3e2dae59c5f}, 2098272
+Bank::getEventListItem, 0, 5, {6ab5d7aa-4ad2-48b7-9d09-ed4c254be311}, 2097760
+Bank::getEventListItem, 0, 6, {6a0757cb-e80b-4e74-81d6-1cda0e52563e}, 2100064
+System::setListenerAttributes, 0, {{-1.575,0,0.725},{0,0,0},{-0.818514,0,-0.574487},{0,1,0}}, {-1.575,0,0.725}, true
+EventDescription::createInstance, 2100576, 2100832
+EventDescription::createInstance, 2099552, 2101344
+EventInstance::set3DAttributes, 2101344, {{-8.3,0,-0.6},{0,0,0},{-0.997084,0,0.0763168},{0,1,0}}
+EventDescription::createInstance, 2100064, 2100320
+EventDescription::createInstance, 2097248, 2101600
+EventInstance::set3DAttributes, 2101600, {{-9.175,0,4.4},{0,0,0},{0.756386,0,-0.654125},{0,1,0}}
+# Finished printing initial instance state
+Playback::frame, 4096
+Manager::directLoadBankMemory
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128

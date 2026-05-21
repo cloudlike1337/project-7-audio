@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{ab3556df-d1e4-4673-bf84-d6f247a8d471}">
 		<property name="name">
-			<value>Reverb Dummy</value>
+			<value>World</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{399dec58-68b5-4184-8793-a2ff57bd7721}</destination>
