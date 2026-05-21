@@ -5,7 +5,7 @@
 			<value>sfx_traffic_light_go</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{92b31d8b-83a8-4b80-9553-c7bb3c0debb6}</destination>
@@ -132,6 +132,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{d318ea54-eb6e-4985-b0c0-1808d11687f2}">
 		<relationship name="effects">
+			<destination>{104c883f-f31a-41fb-abc0-5fecb59710ed}</destination>
 			<destination>{a0836f95-7176-457a-898b-fd24c8352d54}</destination>
 		</relationship>
 	</object>
@@ -143,6 +144,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{83645d2c-4f80-4972-9947-d27ffc8ee14b}" />
+	<object class="SpatialiserEffect" id="{104c883f-f31a-41fb-abc0-5fecb59710ed}" />
 	<object class="MixerBusFader" id="{a0836f95-7176-457a-898b-fd24c8352d54}" />
 	<object class="MixerBusFader" id="{8d4515a7-38f1-4a98-b0e7-6a36badc3d84}" />
 </objects>
