@@ -1,0 +1,4624 @@
+Playback::frame, 0
+Playback::version, 2, 131849
+#
+# FMOD v2.03.09 command capture
+#   System::setSoftwareChannels(numsoftwarechannels: 64)
+#   System::setDSPBufferSize(bufferlength: 512, numbuffers: 4)
+#   System::setSoftwareFormat(samplerate: 48000, speakermode: 6, numrawspeakers: 6)
+#   System::setAdvancedSettings(settings: {maxMPEGCodecs: 0, maxADPCMCodecs: 0, maxXMACodecs: 0, maxVorbisCodecs: 0, maxAT9Codecs: 0, maxFADPCMCodecs: 0, maxOpusCodecs: 0
+#       ASIONumChannels: 0, vol0virtualvol: -1, defaultDecodeBufferSize: 400, geometryMaxFadeTime: 0,
+#       distanceFilterCenterFreq: 1500, reverb3Dinstance: 0, DSPBufferPoolSize: 8, resamplerMethod: 2, randomSeed: 0})
+#   Studio::System::setAdvancedSettings(settings: {commandqueuesize: 32768, handleinitialsize: 65536, studioupdateperiod: 20, idlesampledatapoolsize: 262144})
+#   Studio::System::initialize(maxchannels: 1024, studioflags: 0x00000024, flags: 0x00520000)
+#
+Playback::frame, 0
+# Printing initial instance state
+Bank::getEventListItem, 0, 0, {b9ed130e-9c49-4cd6-a586-da5ee96a11c5}, 2097952
+Bank::getEventListItem, 0, 1, {6ab5d7aa-4ad2-48b7-9d09-ed4c254be311}, 2097184
+System::setListenerAttributes, 0, {{-8.95414,0,-1.93658},{0,0,0},{0.928777,0,0.370638},{0,1,0}}, {-8.95414,0,-1.93658}, true
+System::setParameterByName, music_track, 2, false
+EventDescription::createInstance, 2097184, 2097696
+EventInstance::setTimelinePosition, 2097696, 86966
+EventInstance::start, 2097696
+EventDescription::createInstance, 2097952, 2098464
+EventInstance::set3DAttributes, 2098464, {{12.9,0,5.425},{0,0,0},{0.971073,0,-0.238782},{0,1,0}}
+# Finished printing initial instance state
+Playback::frame, 5632
+Manager::directLoadBankMemory
+Playback::frame, 49152
+Playback::frame, 51200
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 12800
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+Playback::frame, 48128
+Playback::frame, 40960
+EventInstance::start, 2098464
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+Playback::frame, 49664
+Playback::frame, 48640
+Playback::frame, 30208
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-12.9623,0,-1.93658},{0,0,0},{0.928777,0,0.370638},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-12.9623,0,-2.9287},{0,0,0},{0.928777,0,0.370638},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-12.9623,0,-2.9287},{0,0,0},{-0.970705,0,-0.240274},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6144
+Manager::directLoadBankMemory
+Playback::frame, 6144
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-13.4386,0,-2.9287},{0,0,0},{-0.970705,0,-0.240274},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-13.4386,0,-2.53185},{0,0,0},{-0.970705,0,-0.240274},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-13.4386,0,-2.53185},{0,0,0},{-0.792421,0,0.609975},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 12800
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-13.3989,0,-2.53185},{0,0,0},{-0.792421,0,0.609975},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-13.3989,0,-2.49217},{0,0,0},{-0.792421,0,0.609975},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-13.3989,0,-2.49217},{0,0,0},{-0.75003,0,0.661404},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6144
+Manager::directLoadBankMemory
+Playback::frame, 19968
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-12.2083,0,-2.49217},{0,0,0},{-0.75003,0,0.661404},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-12.2083,0,-2.80965},{0,0,0},{-0.75003,0,0.661404},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-12.2083,0,-2.80965},{0,0,0},{0.966235,0,-0.257663},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 7168
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-8.16044,0,-2.80965},{0,0,0},{0.966235,0,-0.257663},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-8.16044,0,-3.40493},{0,0,0},{0.966235,0,-0.257663},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-8.16044,0,-3.40493},{0,0,0},{0.989359,0,-0.145494},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 0
+Manager::directLoadBankMemory
+Playback::frame, 2560
+Manager::directLoadBankMemory
+Playback::frame, 7168
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-4.27131,0,-3.40493},{0,0,0},{0.989359,0,-0.145494},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-4.27131,0,-2.88902},{0,0,0},{0.989359,0,-0.145494},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-4.27131,0,-2.88902},{0,0,0},{0.991316,0,0.131501},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 2560
+Manager::directLoadBankMemory
+Playback::frame, 10240
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-1.81084,0,-2.88902},{0,0,0},{0.991316,0,0.131501},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-1.81084,0,-2.05563},{0,0,0},{0.991316,0,0.131501},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-1.81084,0,-2.05563},{0,0,0},{0.947145,0,0.320807},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 14336
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{0.967113,0,-2.05563},{0,0,0},{0.947145,0,0.320807},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{0.967113,0,-1.26193},{0,0,0},{0.947145,0,0.320807},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{0.967113,0,-1.26193},{0,0,0},{0.961524,0,0.274721},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6656
+Manager::directLoadBankMemory
+Playback::frame, 17920
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{1.0068,0,-1.26193},{0,0,0},{0.961524,0,0.274721},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{1.0068,0,-1.22225},{0,0,0},{0.961524,0,0.274721},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{1.0068,0,-1.22225},{0,0,0},{0.952664,0,0.304026},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6656
+Manager::directLoadBankMemory
+Playback::frame, 11264
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{0.967113,0,-1.22225},{0,0,0},{0.952664,0,0.304026},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{0.967113,0,-1.22225},{0,0,0},{0.949484,0,0.313816},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6144
+Manager::directLoadBankMemory
+Playback::frame, 31232
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{1.76081,0,-1.22225},{0,0,0},{0.949484,0,0.313816},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{1.76081,0,-1.18256},{0,0,0},{0.949484,0,0.313816},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{1.76081,0,-1.18256},{0,0,0},{0.985103,0,0.171965},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 6656
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{2.07829,0,-1.18256},{0,0,0},{0.985103,0,0.171965},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{2.07829,0,-1.06351},{0,0,0},{0.985103,0,0.171965},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{2.07829,0,-1.06351},{0,0,0},{0.950063,0,0.312058},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 11264
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{2.5942,0,-1.06351},{0,0,0},{0.950063,0,0.312058},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{2.5942,0,-0.904768},{0,0,0},{0.950063,0,0.312058},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{2.5942,0,-0.904768},{0,0,0},{0.955372,0,0.295405},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6144
+Manager::directLoadBankMemory
+Playback::frame, 9728
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{3.50695,0,-0.904768},{0,0,0},{0.955372,0,0.295405},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{3.50695,0,-0.468233},{0,0,0},{0.955372,0,0.295405},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{3.50695,0,-0.468233},{0,0,0},{0.902134,0,0.431455},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 16384
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{5.72932,0,-0.468233},{0,0,0},{0.902134,0,0.431455},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{5.72932,0,0.801688},{0,0,0},{0.902134,0,0.431455},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{5.72932,0,0.801688},{0,0,0},{0.868243,0,0.496139},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 18944
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{8.18979,0,0.801688},{0,0,0},{0.868243,0,0.496139},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{8.18979,0,1.75413},{0,0,0},{0.868243,0,0.496139},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{8.18979,0,1.75413},{0,0,0},{0.932568,0,0.360994},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 23040
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{9.77719,0,1.75413},{0,0,0},{0.932568,0,0.360994},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{9.77719,0,2.78594},{0,0,0},{0.932568,0,0.360994},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{9.77719,0,2.78594},{0,0,0},{0.838444,0,0.544988},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6144
+Manager::directLoadBankMemory
+Playback::frame, 22016
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{10.9281,0,2.78594},{0,0,0},{0.838444,0,0.544988},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{10.9281,0,3.69869},{0,0,0},{0.838444,0,0.544988},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{10.9281,0,3.69869},{0,0,0},{0.783498,0,0.621395},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 29696
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{11.2852,0,3.69869},{0,0,0},{0.783498,0,0.621395},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{11.2852,0,3.93681},{0,0,0},{0.783498,0,0.621395},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{11.2852,0,3.93681},{0,0,0},{0.825866,0,0.563867},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6144
+Manager::directLoadBankMemory
+Playback::frame, 12288
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{11.2455,0,3.93681},{0,0,0},{0.825866,0,0.563867},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{11.2455,0,3.81775},{0,0,0},{0.825866,0,0.563867},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{11.2455,0,3.81775},{0,0,0},{0.954602,0,0.297883},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 7168
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{11.1662,0,3.81775},{0,0,0},{0.954602,0,0.297883},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{11.1662,0,3.77806},{0,0,0},{0.954602,0,0.297883},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{11.1662,0,3.77806},{0,0,0},{0.964024,0,0.265814},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6144
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 25088
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+EventInstance::getDescription, 2098464, 2097952
+Playback::frame, 49664
+Playback::frame, 26112
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.36428,0,3.77806},{0,0,0},{0.964024,0,0.265814},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.36428,0,3.77806},{0,0,0},{-1,0,-4.37114e-08},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6656
+Manager::directLoadBankMemory
+Playback::frame, 4096
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{5.01499,0,3.77806},{0,0,0},{-1,0,-4.37114e-08},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{5.01499,0,3.34153},{0,0,0},{-1,0,-4.37114e-08},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{5.01499,0,3.34153},{0,0,0},{-0.951445,0,-0.30782},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6144
+Manager::directLoadBankMemory
+Playback::frame, 8192
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{4.06255,0,3.34153},{0,0,0},{-0.951445,0,-0.30782},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{4.06255,0,2.38909},{0,0,0},{-0.951445,0,-0.30782},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{4.06255,0,2.38909},{0,0,0},{-0.707107,0,-0.707107},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 5632
+Manager::directLoadBankMemory
+Playback::frame, 11264
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{3.42759,0,2.38909},{0,0,0},{-0.707107,0,-0.707107},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{3.42759,0,2.11129},{0,0,0},{-0.707107,0,-0.707107},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{3.42759,0,2.11129},{0,0,0},{-0.911568,0,-0.41115},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 5632
+Manager::directLoadBankMemory
+Playback::frame, 12800
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-2.28706,0,2.11129},{0,0,0},{-0.911568,0,-0.41115},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-2.28706,0,0.0873572},{0,0,0},{-0.911568,0,-0.41115},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-2.28706,0,0.0873572},{0,0,0},{-0.942627,0,-0.333847},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 16384
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-5.14438,0,0.0873572},{0,0,0},{-0.942627,0,-0.333847},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-5.14438,0,-1.02382},{0,0,0},{-0.942627,0,-0.333847},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-5.14438,0,-1.02382},{0,0,0},{-0.932005,0,-0.362446},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6656
+Manager::directLoadBankMemory
+Playback::frame, 19968
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-8.23981,0,-1.02382},{0,0,0},{-0.932005,0,-0.362446},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-8.23981,0,-1.93658},{0,0,0},{-0.932005,0,-0.362446},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-8.23981,0,-1.93658},{0,0,0},{-0.959169,0,-0.282832},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 2560
+Manager::directLoadBankMemory
+Playback::frame, 26624
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-8.91446,0,-1.93658},{0,0,0},{-0.959169,0,-0.282832},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-8.91446,0,-2.33343},{0,0,0},{-0.959169,0,-0.282832},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-8.91446,0,-2.33343},{0,0,0},{-0.86407,0,-0.503371},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 2560
+Manager::directLoadBankMemory
+Playback::frame, 40448
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-10.4622,0,-2.33343},{0,0,0},{-0.86407,0,-0.503371},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-10.4622,0,-2.21437},{0,0,0},{-0.86407,0,-0.503371},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-10.4622,0,-2.21437},{0,0,0},{-0.997054,0,0.0766965},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 2560
+Manager::directLoadBankMemory
+Playback::frame, 8192
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-11.613,0,-2.21437},{0,0,0},{-0.997054,0,0.0766965},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-11.613,0,-1.69847},{0,0,0},{-0.997054,0,0.0766965},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-11.613,0,-1.69847},{0,0,0},{-0.912509,0,0.409056},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 5632
+Manager::directLoadBankMemory
+Playback::frame, 11264
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-13.0814,0,-1.69847},{0,0,0},{-0.912509,0,0.409056},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-13.0814,0,-0.706343},{0,0,0},{-0.912509,0,0.409056},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-13.0814,0,-0.706343},{0,0,0},{-0.828589,0,0.559857},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6144
+Manager::directLoadBankMemory
+Playback::frame, 13824
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-14.1926,0,-0.706343},{0,0,0},{-0.828589,0,0.559857},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-14.1926,0,0.0476723},{0,0,0},{-0.828589,0,0.559857},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-14.1926,0,0.0476723},{0,0,0},{-0.827476,0,0.561501},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6656
+Manager::directLoadBankMemory
+Playback::frame, 16896
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-14.3513,0,0.0476723},{0,0,0},{-0.827476,0,0.561501},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-14.3513,0,0.484208},{0,0,0},{-0.827476,0,0.561501},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-14.3513,0,0.484208},{0,0,0},{-0.402937,0,0.915228},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6144
+Manager::directLoadBankMemory
+Playback::frame, 19968
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-14.2323,0,0.484208},{0,0,0},{-0.402937,0,0.915228},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-14.2323,0,1.51602},{0,0,0},{-0.402937,0,0.915228},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-14.2323,0,1.51602},{0,0,0},{0.114624,0,0.993409},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6656
+Manager::directLoadBankMemory
+Playback::frame, 19968
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-14.3513,0,1.51602},{0,0,0},{0.114624,0,0.993409},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-14.3513,0,2.50814},{0,0,0},{0.114624,0,0.993409},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-14.3513,0,2.50814},{0,0,0},{-0.119136,0,0.992878},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6656
+Manager::directLoadBankMemory
+Playback::frame, 48128
+Playback::frame, 49664
+Playback::frame, 49152
+Playback::frame, 49664
+Playback::frame, 49152
+Playback::frame, 49664
+Playback::frame, 48640
+Playback::frame, 26112
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-11.2559,0,2.50814},{0,0,0},{-0.119136,0,0.992878},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-11.2559,0,1.75413},{0,0,0},{-0.119136,0,0.992878},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-11.2559,0,1.75413},{0,0,0},{0.97159,0,-0.23667},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 2560
+Manager::directLoadBankMemory
+Playback::frame, 3584
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-1.17588,0,1.75413},{0,0,0},{0.97159,0,-0.23667},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-1.17588,0,1.71444},{0,0,0},{0.97159,0,-0.23667},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-1.17588,0,1.71444},{0,0,0},{0.999992,0,-0.00393692},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 8192
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{5.61026,0,1.71444},{0,0,0},{0.999992,0,-0.00393692},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{5.61026,0,2.54783},{0,0,0},{0.999992,0,-0.00393692},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{5.61026,0,2.54783},{0,0,0},{0.992543,0,0.121891},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 7168
+Manager::directLoadBankMemory
+Playback::frame, 6144
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{7.15798,0,2.54783},{0,0,0},{0.992543,0,0.121891},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{7.15798,0,2.6272},{0,0,0},{0.992543,0,0.121891},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{7.15798,0,2.6272},{0,0,0},{0.998688,0,0.0512148},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 25088
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{7.11829,0,2.6272},{0,0,0},{0.998688,0,0.0512148},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{7.11829,0,2.6272},{0,0,0},{0.998597,0,0.052949},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6144
+Manager::directLoadBankMemory
+Playback::frame, 13312
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{7.07861,0,2.6272},{0,0,0},{0.998597,0,0.052949},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{7.07861,0,2.6272},{0,0,0},{0.998501,0,0.054742},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 5120
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{7.03892,0,2.6272},{0,0,0},{0.998501,0,0.054742},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{7.03892,0,2.6272},{0,0,0},{0.998397,0,0.0565955},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 1536
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{7.03892,0,2.58751},{0,0,0},{0.998397,0,0.0565955},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{7.03892,0,2.58751},{0,0,0},{0.999716,0,0.0238273},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 1536
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.99924,0,2.58751},{0,0,0},{0.999716,0,0.0238273},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.99924,0,2.54783},{0,0,0},{0.999716,0,0.0238273},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.99924,0,2.54783},{0,0,0},{0.999699,0,-0.0245237},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 5120
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.95955,0,2.54783},{0,0,0},{0.999699,0,-0.0245237},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.95955,0,2.50814},{0,0,0},{0.999699,0,-0.0245237},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.95955,0,2.50814},{0,0,0},{0.997177,0,-0.0750808},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 2560
+Manager::directLoadBankMemory
+Playback::frame, 2048
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.88018,0,2.50814},{0,0,0},{0.997177,0,-0.0750808},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.88018,0,2.42877},{0,0,0},{0.997177,0,-0.0750808},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.88018,0,2.42877},{0,0,0},{0.944954,0,-0.327204},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 2560
+Manager::directLoadBankMemory
+Playback::frame, 3584
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.8405,0,2.42877},{0,0,0},{0.944954,0,-0.327204},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.8405,0,2.38909},{0,0,0},{0.944954,0,-0.327204},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.8405,0,2.38909},{0,0,0},{0.922956,0,-0.384905},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 0
+Manager::directLoadBankMemory
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 3584
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.8405,0,2.3494},{0,0,0},{0.922956,0,-0.384905},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.8405,0,2.3494},{0,0,0},{0.911042,0,-0.412313},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 1536
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.8405,0,2.30972},{0,0,0},{0.911042,0,-0.412313},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.8405,0,2.30972},{0,0,0},{0.898495,0,-0.438983},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3072
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.80081,0,2.30972},{0,0,0},{0.898495,0,-0.438983},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.80081,0,2.27003},{0,0,0},{0.898495,0,-0.438983},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.80081,0,2.27003},{0,0,0},{0.868367,0,-0.495922},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 2560
+Manager::directLoadBankMemory
+Playback::frame, 3584
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.72144,0,2.27003},{0,0,0},{0.868367,0,-0.495922},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.72144,0,2.19066},{0,0,0},{0.868367,0,-0.495922},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.72144,0,2.19066},{0,0,0},{0.691934,0,-0.72196},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 3072
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.5627,0,2.19066},{0,0,0},{0.691934,0,-0.72196},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.5627,0,1.95255},{0,0,0},{0.691934,0,-0.72196},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.5627,0,1.95255},{0,0,0},{-0.215568,0,-0.976489},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 8704
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.24522,0,1.95255},{0,0,0},{-0.215568,0,-0.976489},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.24522,0,1.63507},{0,0,0},{-0.215568,0,-0.976489},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{6.24522,0,1.63507},{0,0,0},{-0.65905,0,-0.7521},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6144
+Manager::directLoadBankMemory
+Playback::frame, 6656
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{4.02286,0,1.63507},{0,0,0},{-0.65905,0,-0.7521},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{4.02286,0,0.285782},{0,0,0},{-0.65905,0,-0.7521},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{4.02286,0,0.285782},{0,0,0},{-0.854788,0,-0.518978},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 12288
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-12.4067,0,0.285782},{0,0,0},{-0.854788,0,-0.518978},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-12.4067,0,-6.46067},{0,0,0},{-0.854788,0,-0.518978},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-12.4067,0,-6.46067},{0,0,0},{-0.925048,0,-0.379851},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 16896
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-16.1371,0,-6.46067},{0,0,0},{-0.925048,0,-0.379851},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-16.1371,0,-7.57185},{0,0,0},{-0.925048,0,-0.379851},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-16.1371,0,-7.57185},{0,0,0},{-0.958386,0,-0.285477},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 19456
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-18.0023,0,-7.57185},{0,0,0},{-0.958386,0,-0.285477},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-18.0023,0,-8.00839},{0,0,0},{-0.958386,0,-0.285477},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-18.0023,0,-8.00839},{0,0,0},{-0.973688,0,-0.227885},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 17920
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-17.923,0,-8.00839},{0,0,0},{-0.973688,0,-0.227885},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-17.923,0,-8.00839},{0,0,0},{-0.964864,0,-0.262749},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6144
+Manager::directLoadBankMemory
+Playback::frame, 15360
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-17.923,0,-8.00839},{0,0,0},{-0.964864,0,-0.26275},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 49664
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 6144
+EventInstance::stop, 2097696, 0
+Playback::frame, 1536
+EventInstance::setPaused, 2097696, false
+Playback::frame, 28160
+EventInstance::stop, 2098464, 0
+Playback::frame, 1536
+EventInstance::setPaused, 2098464, false
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 16384
+Manager::directLoadBankMemory
+Playback::frame, 48128
+Playback::frame, 49664
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 5632
+EventInstance::start, 2097696
+Playback::frame, 35840
+EventInstance::start, 2098464
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 5120
+Manager::directLoadBankMemory
+Playback::frame, 5120
+Manager::directLoadBankMemory
+Playback::frame, 24576
+Manager::directLoadBankMemory
+Playback::frame, 26624
+Manager::directLoadBankMemory
+Playback::frame, 49664
+Playback::frame, 0
+Manager::directLoadBankMemory
+Playback::frame, 49664
+Playback::frame, 49664
+Playback::frame, 49152
+Playback::frame, 49664
+Playback::frame, 49664
+Playback::frame, 48128
+Playback::frame, 18944
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-3.08076,0,-8.00839},{0,0,0},{-0.964864,0,-0.26275},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-3.08076,0,-7.84965},{0,0,0},{-0.964864,0,-0.26275},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-3.08076,0,-7.84965},{0,0,0},{0.999943,0,0.0106946},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6656
+Manager::directLoadBankMemory
+Playback::frame, 6144
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{5.88806,0,-7.84965},{0,0,0},{0.999943,0,0.0106946},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{5.88806,0,-4.83359},{0,0,0},{0.999943,0,0.0106946},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{5.88806,0,-4.83359},{0,0,0},{0.947841,0,0.318743},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 13824
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{9.30097,0,-4.83359},{0,0,0},{0.947841,0,0.318743},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{9.30097,0,0.325467},{0,0,0},{0.947841,0,0.318743},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{9.30097,0,0.325467},{0,0,0},{0.551736,0,0.834019},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 7168
+Manager::directLoadBankMemory
+Playback::frame, 15872
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{10.5312,0,0.325467},{0,0,0},{0.551736,0,0.834019},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{10.5312,0,1.8335},{0,0,0},{0.551736,0,0.834019},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{10.5312,0,1.8335},{0,0,0},{0.632127,0,0.774865},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 26624
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{11.4836,0,1.8335},{0,0,0},{0.632127,0,0.774865},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{11.4836,0,3.26216},{0,0,0},{0.632127,0,0.774865},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{11.4836,0,3.26216},{0,0,0},{0.5547,0,0.83205},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 2560
+Manager::directLoadBankMemory
+Playback::frame, 30208
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{11.6821,0,3.26216},{0,0,0},{0.5547,0,0.83205},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{11.6821,0,3.85743},{0,0,0},{0.5547,0,0.83205},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{11.6821,0,3.85743},{0,0,0},{0.327498,0,0.944852},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6144
+Manager::directLoadBankMemory
+Playback::frame, 22528
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{11.6027,0,3.85743},{0,0,0},{0.327498,0,0.944852},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{11.6027,0,3.73838},{0,0,0},{0.327498,0,0.944852},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{11.6027,0,3.73838},{0,0,0},{0.113352,0,0.993555},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6656
+Manager::directLoadBankMemory
+Playback::frame, 31744
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{11.563,0,3.73838},{0,0,0},{0.113352,0,0.993555},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{11.563,0,3.73838},{0,0,0},{0.0808102,0,0.996729},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6656
+Manager::directLoadBankMemory
+Playback::frame, 8192
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{11.4836,0,3.73838},{0,0,0},{0.0808102,0,0.996729},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{11.4836,0,3.69869},{0,0,0},{0.0808102,0,0.996729},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{11.4836,0,3.69869},{0,0,0},{-0.0799772,0,0.996797},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 2560
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{9.53908,0,3.69869},{0,0,0},{-0.0799772,0,0.996797},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{9.53908,0,2.11129},{0,0,0},{-0.0799772,0,0.996797},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{9.53908,0,2.11129},{0,0,0},{-0.774661,0,-0.632377},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 5632
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{2.5942,0,2.11129},{0,0,0},{-0.774661,0,-0.632377},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{2.5942,0,-2.135},{0,0,0},{-0.774661,0,-0.632377},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{2.5942,0,-2.135},{0,0,0},{-0.853161,0,-0.521647},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 5632
+Manager::directLoadBankMemory
+Playback::frame, 3072
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-10.7797,0,-2.135},{0,0,0},{-0.853161,0,-0.521647},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-10.7797,0,-7.33374},{0,0,0},{-0.853161,0,-0.521647},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-10.7797,0,-7.33374},{0,0,0},{-0.932057,0,-0.362313},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 8192
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-23.9948,0,-7.33374},{0,0,0},{-0.932057,0,-0.362313},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-23.9948,0,-8.92114},{0,0,0},{-0.932057,0,-0.362313},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-23.9948,0,-8.92114},{0,0,0},{-0.992863,0,-0.119263},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6144
+Manager::directLoadBankMemory
+Playback::frame, 11776
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-24.6694,0,-8.92114},{0,0,0},{-0.992863,0,-0.119263},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-24.6694,0,-9.0402},{0,0,0},{-0.992863,0,-0.119263},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-24.6694,0,-9.0402},{0,0,0},{-0.985093,0,-0.172024},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6656
+Manager::directLoadBankMemory
+Playback::frame, 14848
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-24.6297,0,-9.0402},{0,0,0},{-0.985093,0,-0.172024},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-24.6297,0,-9.00051},{0,0,0},{-0.985093,0,-0.172024},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-24.6297,0,-9.00051},{0,0,0},{-0.991259,0,-0.131932},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 30208
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-24.6694,0,-9.00051},{0,0,0},{-0.991259,0,-0.131932},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-24.6694,0,-9.07988},{0,0,0},{-0.991259,0,-0.131932},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-24.6694,0,-9.07988},{0,0,0},{-0.965882,0,-0.258984},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6144
+Manager::directLoadBankMemory
+Playback::frame, 49664
+Playback::frame, 49152
+Playback::frame, 49664
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 49664
+Playback::frame, 48128
+Playback::frame, 26112
+EventInstance::stop, 2097696, 0
+Playback::frame, 1536
+EventInstance::setPaused, 2097696, false
+Playback::frame, 26112
+EventInstance::stop, 2098464, 0
+Playback::frame, 1536
+EventInstance::setPaused, 2098464, false
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 38400
+Manager::directLoadBankMemory
+Playback::frame, 49152
+Playback::frame, 26112
+Manager::directLoadBankMemory
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 2560
+Manager::directLoadBankMemory
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 2560
+Manager::directLoadBankMemory
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 2560
+Manager::directLoadBankMemory
+Playback::frame, 9216
+Manager::directLoadBankMemory
+Playback::frame, 16384
+Manager::directLoadBankMemory
+Playback::frame, 2560
+Manager::directLoadBankMemory
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 15872
+Manager::directLoadBankMemory
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 19456
+Manager::directLoadBankMemory
+Playback::frame, 6656
+Manager::directLoadBankMemory
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 45568
+Manager::directLoadBankMemory
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 9216
+Manager::directLoadBankMemory
+Playback::frame, 10240
+Manager::directLoadBankMemory
+Playback::frame, 25088
+Manager::directLoadBankMemory
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 53760
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 30720
+EventInstance::start, 2097696
+Playback::frame, 23040
+EventInstance::start, 2098464
+Playback::frame, 48128
+Playback::frame, 32768
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-21.2962,0,-9.07988},{0,0,0},{-0.965882,0,-0.258984},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-21.2962,0,-7.09563},{0,0,0},{-0.965882,0,-0.258984},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-21.2962,0,-7.09563},{0,0,0},{0.861934,0,0.50702},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6656
+Manager::directLoadBankMemory
+Playback::frame, 4608
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-20.2247,0,-7.09563},{0,0,0},{0.861934,0,0.50702},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-20.2247,0,-6.6591},{0,0,0},{0.861934,0,0.50702},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-20.2247,0,-6.6591},{0,0,0},{0.926092,0,0.377297},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6144
+Manager::directLoadBankMemory
+Playback::frame, 7680
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-15.3037,0,-6.6591},{0,0,0},{0.926092,0,0.377297},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-15.3037,0,-4.83359},{0,0,0},{0.926092,0,0.377297},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-15.3037,0,-4.83359},{0,0,0},{0.937566,0,0.347807},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 5632
+Manager::directLoadBankMemory
+Playback::frame, 9728
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-11.4543,0,-4.83359},{0,0,0},{0.937566,0,0.347807},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-11.4543,0,-4.03989},{0,0,0},{0.937566,0,0.347807},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-11.4543,0,-4.03989},{0,0,0},{0.979398,0,0.201938},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 15360
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-5.54123,0,-4.03989},{0,0,0},{0.979398,0,0.201938},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-5.54123,0,-1.77784},{0,0,0},{0.979398,0,0.201938},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-5.54123,0,-1.77784},{0,0,0},{0.93399,0,0.357298},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 2560
+Manager::directLoadBankMemory
+Playback::frame, 21504
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-2.08863,0,-1.77784},{0,0,0},{0.93399,0,0.357298},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-2.08863,0,1.0398},{0,0,0},{0.93399,0,0.357298},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-2.08863,0,1.0398},{0,0,0},{0.77475,0,0.632267},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 2560
+Manager::directLoadBankMemory
+Playback::frame, 21504
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{1.20522,0,1.0398},{0,0,0},{0.77475,0,0.632267},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{1.20522,0,1.71444},{0,0,0},{0.77475,0,0.632267},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{1.20522,0,1.71444},{0,0,0},{0.979662,0,0.200654},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6656
+Manager::directLoadBankMemory
+Playback::frame, 23552
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{2.39577,0,1.71444},{0,0,0},{0.979662,0,0.200654},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{2.39577,0,1.87318},{0,0,0},{0.979662,0,0.200654},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{2.39577,0,1.87318},{0,0,0},{0.991228,0,0.132164},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 2560
+Manager::directLoadBankMemory
+Playback::frame, 42496
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{2.3164,0,1.87318},{0,0,0},{0.991228,0,0.132164},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{2.3164,0,1.87318},{0,0,0},{0.988246,0,0.152873},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 5632
+Manager::directLoadBankMemory
+Playback::frame, 39424
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{2.07829,0,1.87318},{0,0,0},{0.988246,0,0.152873},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{2.07829,0,1.79381},{0,0,0},{0.988246,0,0.152873},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{2.07829,0,1.79381},{0,0,0},{-0.848412,0,-0.529337},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 4608
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{2.03861,0,1.79381},{0,0,0},{-0.848412,0,-0.529337},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{2.03861,0,1.75413},{0,0,0},{-0.848412,0,-0.529337},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{2.03861,0,1.75413},{0,0,0},{-0.840843,0,-0.541279},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 2560
+Manager::directLoadBankMemory
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 2560
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{1.60207,0,1.75413},{0,0,0},{-0.840843,0,-0.541279},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{1.60207,0,1.59539},{0,0,0},{-0.840843,0,-0.541279},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{1.60207,0,1.59539},{0,0,0},{-0.931141,0,-0.36466},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 4608
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-3.35856,0,1.59539},{0,0,0},{-0.931141,0,-0.36466},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-3.35856,0,-0.587289},{0,0,0},{-0.931141,0,-0.36466},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-3.35856,0,-0.587289},{0,0,0},{-0.915315,0,-0.402739},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 3584
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-9.11288,0,-0.587289},{0,0,0},{-0.915315,0,-0.402739},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-9.11288,0,-2.96839},{0,0,0},{-0.915315,0,-0.402739},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-9.11288,0,-2.96839},{0,0,0},{-0.924017,0,-0.382352},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 0
+Manager::directLoadBankMemory
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 6144
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-11.613,0,-2.96839},{0,0,0},{-0.924017,0,-0.382352},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-11.613,0,-4.278},{0,0,0},{-0.924017,0,-0.382352},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-11.613,0,-4.278},{0,0,0},{-0.885832,0,-0.464007},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 17920
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-11.5734,0,-4.278},{0,0,0},{-0.885832,0,-0.464007},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-11.5734,0,-4.278},{0,0,0},{-0.87845,0,-0.477833},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6144
+Manager::directLoadBankMemory
+Playback::frame, 49152
+Playback::frame, 15360
+System::setParameterByID, {221515785,1232012505}, 0, false
+System::setParameterByID, {221515785,1232012505}, 1, false
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 14336
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 4608
+Manager::directLoadBankMemory
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 7168
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-11.0575,0,-4.278},{0,0,0},{-0.87845,0,-0.477833},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-11.0575,0,-3.68272},{0,0,0},{-0.87845,0,-0.477833},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-11.0575,0,-3.68272},{0,0,0},{0.650309,0,0.75967},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 11264
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-6.09682,0,-3.68272},{0,0,0},{0.650309,0,0.75967},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-6.09682,0,-0.309493},{0,0,0},{0.650309,0,0.75967},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-6.09682,0,-0.309493},{0,0,0},{0.826926,0,0.56231},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6656
+Manager::directLoadBankMemory
+Playback::frame, 11776
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-1.69178,0,-0.309493},{0,0,0},{0.826926,0,0.56231},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-1.69178,0,1.87318},{0,0,0},{0.826926,0,0.56231},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{-1.69178,0,1.87318},{0,0,0},{0.896036,0,0.443982},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 17408
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{0.808373,0,1.87318},{0,0,0},{0.896036,0,0.443982},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{0.808373,0,2.27003},{0,0,0},{0.896036,0,0.443982},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{0.808373,0,2.27003},{0,0,0},{0.987636,0,0.156768},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 6656
+Manager::directLoadBankMemory
+Playback::frame, 19968
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{2.75294,0,2.27003},{0,0,0},{0.987636,0,0.156768},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{2.75294,0,2.46846},{0,0,0},{0.987636,0,0.156768},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{2.75294,0,2.46846},{0,0,0},{0.994834,0,0.101514},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 27648
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{2.95136,0,2.46846},{0,0,0},{0.994834,0,0.101514},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+System::setNumListeners, 1
+System::setListenerAttributes, 0, {{2.95136,0,2.46846},{0,0,0},{0.998685,0,0.0512743},{0,1,0}}, {0,0,0}, false
+System::setListenerWeight, 0, 1
+Playback::frame, 2560
+Manager::directLoadBankMemory
+Playback::frame, 49152
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 13824
+EventInstance::stop, 2097696, 0
+Playback::frame, 1536
+EventInstance::setPaused, 2097696, false
+Playback::frame, 23040
+EventInstance::stop, 2098464, 0
+Playback::frame, 1024
+EventInstance::setPaused, 2098464, false
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 25600
+Manager::directLoadBankMemory
+Playback::frame, 6144
+Manager::directLoadBankMemory
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 42496
+Manager::directLoadBankMemory
+Playback::frame, 6656
+Manager::directLoadBankMemory
+Playback::frame, 32256
+Manager::directLoadBankMemory
+Playback::frame, 6144
+Manager::directLoadBankMemory
+Playback::frame, 39936
+Manager::directLoadBankMemory
+Playback::frame, 5632
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 49664
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 8704
+Manager::directLoadBankMemory
+Playback::frame, 7168
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 22528
+Manager::directLoadBankMemory
+Playback::frame, 6656
+Manager::directLoadBankMemory
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 42496
+Manager::directLoadBankMemory
+Playback::frame, 6656
+Manager::directLoadBankMemory
+Playback::frame, 48128
+Playback::frame, 33792
+Manager::directLoadBankMemory
+Playback::frame, 6656
+Manager::directLoadBankMemory
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 28160
+Manager::directLoadBankMemory
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49664
+Playback::frame, 49664
+Playback::frame, 49664
+Playback::frame, 50176
+Playback::frame, 48128
+Playback::frame, 49664
+Playback::frame, 48128
+Playback::frame, 32256
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 9216
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 19968
+System::setParameterByID, {221515785,1232012505}, 1, false
+Playback::frame, 22016
+System::setParameterByID, {221515785,1232012505}, 2, false
+Playback::frame, 40448
+System::setParameterByID, {221515785,1232012505}, 2, false
+Playback::frame, 26112
+System::setParameterByID, {221515785,1232012505}, 1, false
+Playback::frame, 20992
+System::setParameterByID, {221515785,1232012505}, 1, false
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 30720
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 3072
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 49152
+Playback::frame, 49664
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 49664
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49664
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 16896
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 2048
+System::setParameterByID, {221515785,1232012505}, 1, false
+Playback::frame, 2560
+System::setParameterByID, {221515785,1232012505}, 1, false
+Playback::frame, 9728
+System::setParameterByID, {221515785,1232012505}, 1, false
+Playback::frame, 48640
+Playback::frame, 21504
+System::setParameterByID, {221515785,1232012505}, 1, false
+Playback::frame, 1024
+System::setParameterByID, {221515785,1232012505}, 2, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 3, false
+Playback::frame, 2560
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 4096
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 2048
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 9216
+System::setParameterByID, {221515785,1232012505}, 3, false
+Playback::frame, 4608
+System::setParameterByID, {221515785,1232012505}, 1, false
+Playback::frame, 4608
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 4096
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 4096
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 7168
+System::setParameterByID, {221515785,1232012505}, 0, false
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 1024
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 1024
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 2048
+System::setParameterByID, {221515785,1232012505}, 2, false
+Playback::frame, 2560
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 7168
+System::setParameterByID, {221515785,1232012505}, 3, false
+Playback::frame, 2048
+System::setParameterByID, {221515785,1232012505}, 1, false
+Playback::frame, 3072
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 5120
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 3072
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 6144
+System::setParameterByID, {221515785,1232012505}, 2, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 5120
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 6656
+System::setParameterByID, {221515785,1232012505}, 2, false
+Playback::frame, 5120
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 4608
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 4608
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 4608
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 7168
+System::setParameterByID, {221515785,1232012505}, 2, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 4608
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 7680
+System::setParameterByID, {221515785,1232012505}, 2, false
+Playback::frame, 2560
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 2048
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 12288
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 1024
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 1024
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 2560
+System::setParameterByID, {221515785,1232012505}, 2, false
+Playback::frame, 2048
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 2560
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 2048
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 2048
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 2560
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 3072
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 11264
+System::setParameterByID, {221515785,1232012505}, 3, false
+Playback::frame, 1024
+System::setParameterByID, {221515785,1232012505}, 2, false
+Playback::frame, 2560
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 3072
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 2560
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 3072
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 2048
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 2, false
+Playback::frame, 2560
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 3072
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 2048
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 6656
+System::setParameterByID, {221515785,1232012505}, 3, false
+Playback::frame, 2560
+System::setParameterByID, {221515785,1232012505}, 1, false
+Playback::frame, 4096
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 5120
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 4096
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 4608
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 3072
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 4096
+System::setParameterByID, {221515785,1232012505}, 1, false
+Playback::frame, 4096
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 5120
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 4608
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 4608
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 4608
+System::setParameterByID, {221515785,1232012505}, 3, false
+Playback::frame, 2560
+System::setParameterByID, {221515785,1232012505}, 1, false
+Playback::frame, 2560
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 2560
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 2048
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 2560
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 3072
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 2048
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 13312
+System::setParameterByID, {221515785,1232012505}, 0, false
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 48128
+Playback::frame, 30720
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 1536
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 2048
+System::setParameterByID, {221515785,1232012505}, 1, false
+Playback::frame, 2560
+System::setParameterByID, {221515785,1232012505}, 1, false
+Playback::frame, 2560
+System::setParameterByID, {221515785,1232012505}, 1, false
+Playback::frame, 2048
+System::setParameterByID, {221515785,1232012505}, 1, false
+Playback::frame, 3072
+System::setParameterByID, {221515785,1232012505}, 1, false
+Playback::frame, 2048
+System::setParameterByID, {221515785,1232012505}, 1, false
+Playback::frame, 2560
+System::setParameterByID, {221515785,1232012505}, 1, false
+Playback::frame, 9728
+System::setParameterByID, {221515785,1232012505}, 1, false
+Playback::frame, 2048
+System::setParameterByID, {221515785,1232012505}, 1, false
+Playback::frame, 2560
+System::setParameterByID, {221515785,1232012505}, 2, false
+Playback::frame, 2048
+System::setParameterByID, {221515785,1232012505}, 2, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 2, false
+Playback::frame, 13312
+System::setParameterByID, {221515785,1232012505}, 2, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 3, false
+Playback::frame, 3072
+System::setParameterByID, {221515785,1232012505}, 3, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 3, false
+Playback::frame, 4608
+System::setParameterByID, {221515785,1232012505}, 3, false
+Playback::frame, 2560
+System::setParameterByID, {221515785,1232012505}, 3, false
+Playback::frame, 4608
+System::setParameterByID, {221515785,1232012505}, 3, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 3, false
+Playback::frame, 4608
+System::setParameterByID, {221515785,1232012505}, 3, false
+Playback::frame, 48128
+Playback::frame, 22016
+System::setParameterByID, {221515785,1232012505}, 3, false
+Playback::frame, 2048
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 1024
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 2560
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 3072
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 2560
+System::setParameterByID, {221515785,1232012505}, 4, false
+Playback::frame, 24576
+System::setParameterByID, {221515785,1232012505}, 3, false
+Playback::frame, 3072
+System::setParameterByID, {221515785,1232012505}, 3, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 3, false
+Playback::frame, 3072
+System::setParameterByID, {221515785,1232012505}, 2, false
+Playback::frame, 2560
+System::setParameterByID, {221515785,1232012505}, 1, false
+Playback::frame, 4096
+System::setParameterByID, {221515785,1232012505}, 1, false
+Playback::frame, 3072
+System::setParameterByID, {221515785,1232012505}, 1, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 3072
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 2560
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 50176
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 49664
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 18432
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 2048
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 2560
+System::setParameterByID, {221515785,1232012505}, 1, false
+Playback::frame, 1536
+System::setParameterByID, {221515785,1232012505}, 2, false
+Playback::frame, 2560
+System::setParameterByID, {221515785,1232012505}, 2, false
+Playback::frame, 8192
+System::setParameterByID, {221515785,1232012505}, 2, false
+Playback::frame, 3584
+System::setParameterByID, {221515785,1232012505}, 2, false
+Playback::frame, 3072
+System::setParameterByID, {221515785,1232012505}, 2, false
+Playback::frame, 12288
+System::setParameterByID, {221515785,1232012505}, 2, false
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 49664
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 49152
+Playback::frame, 49664
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 49152
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49664
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49664
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 6144
+Manager::directLoadBankMemory
+Playback::frame, 43520
+Manager::directLoadBankMemory
+Playback::frame, 5632
+Manager::directLoadBankMemory
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 41472
+System::setParameterByID, {221515785,1232012505}, 0, false
+Playback::frame, 48640
+Playback::frame, 49664
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49664
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 34816
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 49664
+Playback::frame, 32768
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 41984
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 31232
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49664
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 29696
+Manager::directLoadBankMemory
+Playback::frame, 48128
+Playback::frame, 9728
+Manager::directLoadBankMemory
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 2560
+Manager::directLoadBankMemory
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 48128
+Playback::frame, 12288
+Manager::directLoadBankMemory
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 4096
+Manager::directLoadBankMemory
+Playback::frame, 6656
+Manager::directLoadBankMemory
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 6656
+Manager::directLoadBankMemory
+Playback::frame, 8192
+Manager::directLoadBankMemory
+Playback::frame, 4096
+Manager::directLoadBankMemory
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 30720
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 19456
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 26624
+Manager::directLoadBankMemory
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 28672
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49664
+Playback::frame, 48128
+Playback::frame, 49664
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 24576
+Manager::directLoadBankMemory
+Playback::frame, 5120
+Manager::directLoadBankMemory
+Playback::frame, 2048
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 1536
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 46080
+System::setParameterByID, {4036032549,1619959666}, 0, false
+System::setParameterByID, {4036032549,1619959666}, 0, false
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 512
+Manager::directLoadBankMemory
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 24576
+Manager::directLoadBankMemory
+Playback::frame, 19456
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 45056
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 26112
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 27648
+Manager::directLoadBankMemory
+Playback::frame, 50176
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 49152
+Playback::frame, 26624
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 7680
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 8704
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 10240
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 13824
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 49152
+Playback::frame, 13824
+System::setParameterByID, {4036032549,1619959666}, 1, false
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 49152
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 49152
+Playback::frame, 49664
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 31232
+Manager::directLoadBankMemory
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 20480
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 49664
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 50176
+Playback::frame, 36864
+System::setParameterByID, {4036032549,1619959666}, 1, false
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 17920
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 9216
+Manager::directLoadBankMemory
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 2048
+Manager::directLoadBankMemory
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 7680
+Manager::directLoadBankMemory
+Playback::frame, 2048
+Manager::directLoadBankMemory
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 4096
+Manager::directLoadBankMemory
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 2560
+Manager::directLoadBankMemory
+Playback::frame, 6144
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 46592
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 28160
+Manager::directLoadBankMemory
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 29696
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49664
+Playback::frame, 49664
+Playback::frame, 48128
+Playback::frame, 43520
+Manager::directLoadBankMemory
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 8704
+Manager::directLoadBankMemory
+Playback::frame, 2560
+Manager::directLoadBankMemory
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49664
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 8192
+Manager::directLoadBankMemory
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 16384
+Manager::directLoadBankMemory
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 15872
+Manager::directLoadBankMemory
+Playback::frame, 3584
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 17920
+Manager::directLoadBankMemory
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 48128
+Playback::frame, 49664
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49664
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 9728
+Manager::directLoadBankMemory
+Playback::frame, 10240
+Manager::directLoadBankMemory
+Playback::frame, 16384
+Manager::directLoadBankMemory
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 12288
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 14336
+Manager::directLoadBankMemory
+Playback::frame, 24064
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 9728
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 31744
+Manager::directLoadBankMemory
+Playback::frame, 48128
+Playback::frame, 0
+Manager::directLoadBankMemory
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 2560
+Manager::directLoadBankMemory
+Playback::frame, 28672
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 42496
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 46592
+Manager::directLoadBankMemory
+Playback::frame, 22528
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 49664
+Playback::frame, 13824
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 4608
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 4096
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 2048
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 8704
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 48128
+Playback::frame, 33792
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 2048
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 3584
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 3584
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 4608
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 1536
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 4096
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 2560
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 4096
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 4096
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 5120
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 3072
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 2560
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 4096
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 8704
+System::setParameterByID, {4036032549,1619959666}, 1, false
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 49664
+Playback::frame, 49664
+Playback::frame, 49664
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 7168
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 31232
+Manager::directLoadBankMemory
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 49152
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 1024
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 34816
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49664
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 47104
+Manager::directLoadBankMemory
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49664
+Playback::frame, 49664
+Playback::frame, 3072
+Manager::directLoadBankMemory
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 31232
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 1024
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 3584
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 2048
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 4096
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 3072
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 2048
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 4096
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 2048
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 49152
+Playback::frame, 13312
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 4096
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 3584
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 3072
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 8192
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 5120
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 3072
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 3072
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 3584
+System::setParameterByID, {4036032549,1619959666}, 1, false
+Playback::frame, 5632
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 5120
+System::setParameterByID, {4036032549,1619959666}, 1, false
+Playback::frame, 3584
+System::setParameterByID, {4036032549,1619959666}, 1, false
+Playback::frame, 3072
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 2560
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 2560
+System::setParameterByID, {4036032549,1619959666}, 1, false
+Playback::frame, 2560
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 4096
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 2048
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 3072
+System::setParameterByID, {4036032549,1619959666}, 1, false
+Playback::frame, 3584
+System::setParameterByID, {4036032549,1619959666}, 1, false
+Playback::frame, 2560
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 3584
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 4608
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 3584
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 4096
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 7168
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 1024
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 3072
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 3072
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 3072
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 2560
+System::setParameterByID, {4036032549,1619959666}, 1, false
+Playback::frame, 3072
+System::setParameterByID, {4036032549,1619959666}, 1, false
+Playback::frame, 2048
+System::setParameterByID, {4036032549,1619959666}, 1, false
+Playback::frame, 2560
+System::setParameterByID, {4036032549,1619959666}, 1, false
+Playback::frame, 2048
+System::setParameterByID, {4036032549,1619959666}, 1, false
+Playback::frame, 2560
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 2560
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 3072
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 2048
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 2560
+System::setParameterByID, {4036032549,1619959666}, 0, false
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 1024
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 1024
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 1536
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 1024
+System::setParameterByID, {4036032549,1619959666}, 1, false
+Playback::frame, 1024
+System::setParameterByID, {4036032549,1619959666}, 1, false
+Playback::frame, 1536
+System::setParameterByID, {4036032549,1619959666}, 1, false
+Playback::frame, 3072
+System::setParameterByID, {4036032549,1619959666}, 1, false
+Playback::frame, 3072
+System::setParameterByID, {4036032549,1619959666}, 1, false
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 41984
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 1024
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 2048
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 2560
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 3584
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 4608
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 49664
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49664
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49664
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 33792
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 1024
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 3072
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 1536
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 4096
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 6144
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 3584
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 3072
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 3584
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 4096
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 4096
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 2560
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 4608
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 4608
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 4608
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 18944
+System::setParameterByID, {4036032549,1619959666}, 0, false
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 43520
+Manager::directLoadBankMemory
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 13312
+Manager::directLoadBankMemory
+Playback::frame, 49152
+Playback::frame, 37376
+Manager::directLoadBankMemory
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49664
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
+Playback::frame, 49152
+Playback::frame, 48128
+Playback::frame, 48640
+Playback::frame, 48128
