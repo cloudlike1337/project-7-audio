@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{11857c29-6104-4215-a5d8-eabebd1a6b91}">
+	<object class="AudioFile" id="{798bfbea-5bb0-4643-9cb1-8917da8939f5}">
 		<property name="assetPath">
-			<value>npc_walk_voi-002.wav</value>
+			<value>npc_walk_voi-001.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

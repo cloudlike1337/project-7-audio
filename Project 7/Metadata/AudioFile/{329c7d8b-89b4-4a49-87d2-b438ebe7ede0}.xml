@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{95c4442d-6e7d-4c6a-9403-680c7f56f6d2}">
+	<object class="AudioFile" id="{329c7d8b-89b4-4a49-87d2-b438ebe7ede0}">
 		<property name="assetPath">
-			<value>npc_walk_voi-001.wav</value>
+			<value>npc_bench_spread-003.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>1.5</value>
+			<value>2.6225208333333332</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{bf258112-7989-49b9-a200-870b9ba1f939}</destination>
