@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{6da48c8a-c9e8-4ad0-899a-f598e5b89b24}">
 		<property name="assetPath">
-			<value>npc_bench_spread-002.wav</value>
+			<value>npc/npc_bench_spread-002.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

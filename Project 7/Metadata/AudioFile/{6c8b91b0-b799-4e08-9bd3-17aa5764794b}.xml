@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{8fe9c254-ce5c-441f-ad67-3a576f02cf97}">
+	<object class="AudioFile" id="{6c8b91b0-b799-4e08-9bd3-17aa5764794b}">
 		<property name="assetPath">
-			<value>npc/npc_bench_join.wav</value>
+			<value>ui/ui_back.wav</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>48</value>
+			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>2.6240208333333332</value>
+			<value>0.22641723356009069</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{bf258112-7989-49b9-a200-870b9ba1f939}</destination>

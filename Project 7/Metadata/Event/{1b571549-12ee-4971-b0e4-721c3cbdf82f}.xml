@@ -5,7 +5,7 @@
 			<value>sfx_npc_bench_join</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{0833ce99-4b3b-4286-856d-b326032b5f1b}</destination>
@@ -115,6 +115,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{afe4523d-cadb-46f6-92af-e18ac84c7ab5}">
 		<relationship name="effects">
+			<destination>{d83da29c-cc48-4114-9ca4-5eea0584064d}</destination>
 			<destination>{891f5cf9-00bf-4f4b-b9e6-c6ca87fbb09d}</destination>
 		</relationship>
 	</object>
@@ -126,6 +127,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{88325bbb-0e4b-455c-ab82-78ebe4d3bfd6}" />
+	<object class="SpatialiserEffect" id="{d83da29c-cc48-4114-9ca4-5eea0584064d}" />
 	<object class="MixerBusFader" id="{891f5cf9-00bf-4f4b-b9e6-c6ca87fbb09d}" />
 	<object class="MixerBusFader" id="{6f95c920-071f-4bea-b6a0-2852928d27ac}" />
 </objects>

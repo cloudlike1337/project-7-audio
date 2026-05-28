@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{69b7a044-e5a5-49a3-bfed-1c6839acfa01}">
 		<property name="assetPath">
-			<value>npc_walk_voi-003.wav</value>
+			<value>npc/npc_walk_voi-003.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

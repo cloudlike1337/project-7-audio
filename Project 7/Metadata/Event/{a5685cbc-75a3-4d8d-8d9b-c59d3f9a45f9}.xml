@@ -5,7 +5,7 @@
 			<value>sfx_npc_bench_spread</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{0833ce99-4b3b-4286-856d-b326032b5f1b}</destination>
@@ -120,6 +120,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{ed10b24c-bf16-4309-ae8a-4e41c0c4b75d}">
 		<relationship name="effects">
+			<destination>{5bee5b4d-9308-47b2-b293-4c2d7ed1373e}</destination>
 			<destination>{d39e4883-f91c-41e1-bfc8-8cad8e06054b}</destination>
 		</relationship>
 	</object>
@@ -146,6 +147,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{aa801001-c0b8-466d-81be-8f194740c7fa}" />
+	<object class="SpatialiserEffect" id="{5bee5b4d-9308-47b2-b293-4c2d7ed1373e}" />
 	<object class="MixerBusFader" id="{d39e4883-f91c-41e1-bfc8-8cad8e06054b}" />
 	<object class="MixerBusFader" id="{3e24adfe-b8ac-4567-87c4-2ca25fe2b07e}" />
 </objects>
