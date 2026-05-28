@@ -285,9 +285,6 @@
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{be204af4-e229-4541-8837-f38408005d68}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
 		<property name="isCutoff">
 			<value>true</value>
 		</property>
@@ -300,7 +297,6 @@
 		<relationship name="sounds">
 			<destination>{9b6c0d03-5907-4fea-a921-14bcc66261bd}</destination>
 			<destination>{653dba8d-ac81-4d94-be86-bd2fb2ad87a8}</destination>
-			<destination>{e082924a-8492-47ff-b7c6-3340c9921f47}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionSourceSound" id="{b822cf8d-c8bd-4977-9277-3e477a05e30b}">
@@ -732,7 +728,6 @@
 			<destination>{164bff5f-0b50-4c9b-8cac-91b6ac3583ec}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{e082924a-8492-47ff-b7c6-3340c9921f47}" />
 	<object class="TransitionSourceFadeOutCurve" id="{bfe4ea24-b803-4614-a5ee-feafecc234a5}">
 		<relationship name="startPoint">
 			<destination>{1a966f31-9828-4ad0-bfd0-b936b117c4fa}</destination>
