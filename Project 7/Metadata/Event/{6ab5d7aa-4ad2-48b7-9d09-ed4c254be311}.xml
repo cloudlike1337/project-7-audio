@@ -271,12 +271,11 @@
 			<value>31.707333333333334</value>
 		</property>
 		<property name="playlistMode">
-			<value>4</value>
+			<value>3</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{9b6c0d03-5907-4fea-a921-14bcc66261bd}</destination>
 			<destination>{653dba8d-ac81-4d94-be86-bd2fb2ad87a8}</destination>
-			<destination>{28cbcf75-1802-4f43-b889-05ccea916a07}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionSourceSound" id="{9124483c-92c5-4014-aa0e-ff5ddbcc00e1}">
@@ -738,11 +737,6 @@
 	<object class="SingleSound" id="{653dba8d-ac81-4d94-be86-bd2fb2ad87a8}">
 		<relationship name="audioFile">
 			<destination>{164bff5f-0b50-4c9b-8cac-91b6ac3583ec}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{28cbcf75-1802-4f43-b889-05ccea916a07}">
-		<relationship name="audioFile">
-			<destination>{7d551b64-2f95-4e00-ad9c-f4a6cea3bfe1}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionSourceFadeOutCurve" id="{bfe4ea24-b803-4614-a5ee-feafecc234a5}">
