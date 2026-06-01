@@ -18,8 +18,5 @@
 		<property name="sourceDirectory">
 			<value>../voicelines/voicelines</value>
 		</property>
-		<property name="includeSubDirectories">
-			<value>true</value>
-		</property>
 	</object>
 </objects>

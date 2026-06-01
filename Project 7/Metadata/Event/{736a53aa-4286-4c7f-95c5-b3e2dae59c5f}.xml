@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{736a53aa-4286-4c7f-95c5-b3e2dae59c5f}">
 		<property name="name">
-			<value>sfx_coin_pickup_fountain</value>
+			<value>sfx_coin_pickup</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>

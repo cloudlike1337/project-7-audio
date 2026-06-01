@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{c7bd449b-037c-4bf7-a05e-ccd89b3c4b79}">
 		<property name="assetPath">
-			<value>npc/npc_idle_hang-001.wav</value>
+			<value>npc_idle_hang-001.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
