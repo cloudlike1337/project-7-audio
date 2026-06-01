@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{28cdabad-7c30-4678-a356-49bfecb468c5}">
+	<object class="AudioFile" id="{11365a75-cb22-4734-b27f-6f1066e43f79}">
 		<property name="assetPath">
-			<value>npc_walk_voi-003.wav</value>
+			<value>korvdude_ascends.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>1.5</value>
+			<value>8.6364583333333336</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{bf258112-7989-49b9-a200-870b9ba1f939}</destination>
