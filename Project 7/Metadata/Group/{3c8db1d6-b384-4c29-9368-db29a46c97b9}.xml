@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{3c8db1d6-b384-4c29-9368-db29a46c97b9}">
+		<property name="name">
+			<value>Master Group</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{37713264-1a1f-46c8-9ee3-6e1bc93cacdf}</destination>
+		</relationship>
+		<relationship name="effectChain">
+			<destination>{dc5fb9b7-d71c-4421-a36a-31298ad95a29}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{7651c7b8-acf3-4682-aecb-4b5b8478b948}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{aad8e44d-5551-43a0-8a93-39c84858f2a4}</destination>
+		</relationship>
+	</object>
+	<object class="SidechainModulator" id="{37713264-1a1f-46c8-9ee3-6e1bc93cacdf}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="amount">
+			<value>9</value>
+		</property>
+		<property name="releaseTime">
+			<value>780</value>
+		</property>
+		<property name="minimumThreshold">
+			<value>-30</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{a6727a39-ff7d-4b03-a39c-398efdf2545a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{dc5fb9b7-d71c-4421-a36a-31298ad95a29}">
+		<relationship name="effects">
+			<destination>{a5407ad7-2a48-4c55-9b28-6b32f98a5acb}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{7651c7b8-acf3-4682-aecb-4b5b8478b948}" />
+	<object class="MixerBusFader" id="{a5407ad7-2a48-4c55-9b28-6b32f98a5acb}" />
+</objects>

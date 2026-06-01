@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Workspace" id="{a5cf687a-e1a4-4729-b708-a9b16e431656}">
 		<property name="builtBanksOutputDirectory">
-			<value>../../../../Desktop/Spel/P7/Source/Game/data/audio/Desktop/Bank 2</value>
+			<value>../../../../Downloads/BuildAPA (1)/BuildAPA/Source/Game/data/audio</value>
 		</property>
 		<relationship name="masterEventFolder">
 			<destination>{83867d7f-8059-45ce-8333-0be00f976c1e}</destination>
