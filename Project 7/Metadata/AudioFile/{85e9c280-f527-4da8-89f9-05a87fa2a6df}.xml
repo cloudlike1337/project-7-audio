@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{85e9c280-f527-4da8-89f9-05a87fa2a6df}">
+		<property name="assetPath">
+			<value>LionPlaceholder3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.8202708333333337</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bf258112-7989-49b9-a200-870b9ba1f939}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{f0737032-c942-4e52-9c76-0e87d1837028}">
+		<property name="assetPath">
+			<value>sfx_death_concrete_lion-003.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.8202708333333337</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bf258112-7989-49b9-a200-870b9ba1f939}</destination>
+		</relationship>
+	</object>
+</objects>
