@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{1c42764e-c9ef-4ffb-841c-b738998d5449}">
+		<property name="assetPath">
+			<value>music_voi_loop.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>93.658541666666665</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bf258112-7989-49b9-a200-870b9ba1f939}</destination>
+		</relationship>
+	</object>
+</objects>

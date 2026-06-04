@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{3f58d8ae-45e8-4f03-bebe-c559cde3313f}">
+	<object class="AudioFile" id="{4b8a16e0-29be-4688-9b38-39e034e67819}">
 		<property name="assetPath">
-			<value>Ambience, Residential, City, Airbric, Hum SND152462.wav</value>
+			<value>music_maintitle_loop.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>96</value>
+			<value>48</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>47.099302083333335</value>
+			<value>62.439020833333331</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{bf258112-7989-49b9-a200-870b9ba1f939}</destination>
