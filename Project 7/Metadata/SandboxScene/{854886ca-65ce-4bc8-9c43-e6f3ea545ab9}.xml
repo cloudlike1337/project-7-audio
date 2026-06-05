@@ -27,13 +27,13 @@
 	<object class="Timeline" id="{8b09e905-69ba-4c45-921c-1e560529d210}" />
 	<object class="SandboxListener" id="{3c8eefba-1709-4025-bbf5-186bdcae2e72}">
 		<property name="positionX">
-			<value>-1.57500005</value>
+			<value>1.35742354</value>
 		</property>
 		<property name="positionZ">
-			<value>0.724999964</value>
+			<value>-1.21249413</value>
 		</property>
 		<property name="rotationY">
-			<value>-125.063713</value>
+			<value>104.229721</value>
 		</property>
 	</object>
 	<object class="SandboxEmitter" id="{4cb2a695-4a4f-48bb-bc8a-16a5fe749039}">

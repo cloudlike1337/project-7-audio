@@ -38,13 +38,13 @@
 	</object>
 	<object class="SandboxListener" id="{2c3ad095-26a5-499d-b4e2-0b59f06d196d}">
 		<property name="positionX">
-			<value>3.70136571</value>
+			<value>3.01011801</value>
 		</property>
 		<property name="positionZ">
-			<value>0.24345839</value>
+			<value>-0.267808497</value>
 		</property>
 		<property name="rotationY">
-			<value>69.5650635</value>
+			<value>-98.7555084</value>
 		</property>
 	</object>
 	<object class="SandboxEmitter" id="{b8515fac-d426-4c1e-9909-b322b592c180}">
