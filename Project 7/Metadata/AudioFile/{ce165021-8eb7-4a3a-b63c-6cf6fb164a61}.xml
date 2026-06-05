@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{ce165021-8eb7-4a3a-b63c-6cf6fb164a61}">
 		<property name="assetPath">
-			<value>Vehicles, Horn, City Car, BMC Mini 1959, Horn Several Shorts Outside SND141397 S00.wav</value>
+			<value>car/Vehicles, Horn, City Car, BMC Mini 1959, Horn Several Shorts Outside SND141397 S00.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>192</value>

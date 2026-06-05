@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{042f9edc-ee03-46db-9484-5b14cefb626d}">
 		<property name="assetPath">
-			<value>Cartoon, Horn, Klaxon, Honk, Car Horn SND45590 S00.wav</value>
+			<value>car/Cartoon, Horn, Klaxon, Honk, Car Horn SND45590 S00.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>

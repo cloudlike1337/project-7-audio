@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{02aff8cf-3868-40a0-b8b8-07c47e1ca3a1}">
 		<property name="assetPath">
-			<value>npc_getkorv.wav</value>
+			<value>npc/npc_getkorv.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

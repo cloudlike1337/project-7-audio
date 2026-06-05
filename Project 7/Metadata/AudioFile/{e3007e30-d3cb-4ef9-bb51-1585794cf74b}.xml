@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{e3007e30-d3cb-4ef9-bb51-1585794cf74b}">
 		<property name="assetPath">
-			<value>Vehicles, Horn, Opel Astra K 2019, Horn, Variations SND151676 S02 2.wav</value>
+			<value>car/Vehicles, Horn, Opel Astra K 2019, Horn, Variations SND151676 S02 2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>

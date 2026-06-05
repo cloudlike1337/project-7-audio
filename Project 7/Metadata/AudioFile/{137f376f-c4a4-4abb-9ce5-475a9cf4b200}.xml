@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{137f376f-c4a4-4abb-9ce5-475a9cf4b200}">
 		<property name="assetPath">
-			<value>sfx_death_stopsign.wav</value>
+			<value>death/sfx_death_stopsign.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

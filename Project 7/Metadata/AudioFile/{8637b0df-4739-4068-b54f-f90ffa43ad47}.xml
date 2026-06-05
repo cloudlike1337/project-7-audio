@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{8637b0df-4739-4068-b54f-f90ffa43ad47}">
 		<property name="assetPath">
-			<value>npc_too_poor.wav</value>
+			<value>npc/npc_too_poor.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

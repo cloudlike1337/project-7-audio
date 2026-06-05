@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{11365a75-cb22-4734-b27f-6f1066e43f79}">
 		<property name="assetPath">
-			<value>korvdude_ascends.wav</value>
+			<value>korvdude/korvdude_ascends.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

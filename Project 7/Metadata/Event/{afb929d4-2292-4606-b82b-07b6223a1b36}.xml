@@ -144,6 +144,15 @@
 		<property name="initialValue">
 			<value>-80</value>
 		</property>
+		<property name="attackTime">
+			<value>2200</value>
+		</property>
+		<property name="attackShape">
+			<value>0.112211019</value>
+		</property>
+		<property name="peakValue">
+			<value>-9.53674316e-07</value>
+		</property>
 		<property name="releaseTime">
 			<value>3826.92285</value>
 		</property>

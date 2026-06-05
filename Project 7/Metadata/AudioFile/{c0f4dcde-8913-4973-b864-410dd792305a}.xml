@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{c0f4dcde-8913-4973-b864-410dd792305a}">
 		<property name="assetPath">
-			<value>plank_drop.wav</value>
+			<value>plank/plank_drop.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

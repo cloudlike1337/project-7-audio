@@ -96,7 +96,7 @@
 			<value>0.5</value>
 		</property>
 		<relationship name="modulators">
-			<destination>{3ba47442-48ca-4139-99cd-7b7ae6809651}</destination>
+			<destination>{0bf7443d-3a89-4960-8781-82ce02128d04}</destination>
 		</relationship>
 		<relationship name="sounds">
 			<destination>{54526592-c679-4d08-94e5-1b66daa08ea7}</destination>
@@ -128,30 +128,18 @@
 	</object>
 	<object class="MixerBusPanner" id="{823c45cb-a181-4e24-a69b-d11b3f08e3bd}" />
 	<object class="MixerBusFader" id="{f3fc875b-21ab-4258-97fb-2bb62058e3be}" />
-	<object class="ADSRModulator" id="{3ba47442-48ca-4139-99cd-7b7ae6809651}">
+	<object class="ADSRModulator" id="{0bf7443d-3a89-4960-8781-82ce02128d04}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>volume</value>
 		</property>
 		<property name="initialValue">
-			<value>-80</value>
+			<value>-10</value>
 		</property>
 		<property name="attackTime">
-			<value>0</value>
-		</property>
-		<property name="holdTime">
-			<value>120</value>
-		</property>
-		<property name="decayTime">
-			<value>1200</value>
-		</property>
-		<property name="sustainValue">
-			<value>-80</value>
-		</property>
-		<property name="releaseTime">
-			<value>730.769287</value>
+			<value>80</value>
 		</property>
 		<property name="finalValue">
-			<value>-72.2962952</value>
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="SingleSound" id="{54526592-c679-4d08-94e5-1b66daa08ea7}">
