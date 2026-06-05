@@ -414,6 +414,9 @@
 		<property name="length">
 			<value>101.46341666666666</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{b612900e-6aa1-4c52-8da9-8bb610a919c8}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{d5f968fb-dcd6-4ec6-9990-ca6e5b9249b7}</destination>
 		</relationship>
@@ -691,10 +694,10 @@
 	</object>
 	<object class="TransitionRegion" id="{cd018d63-c307-4513-8aea-3472c5ea2ad1}">
 		<property name="position">
-			<value>275.51218749999998</value>
+			<value>267.7073125</value>
 		</property>
 		<property name="length">
-			<value>93.65854166666665</value>
+			<value>101.46341666666663</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{b9bb31a2-2613-4f07-99a7-a0deb34bf7ef}</destination>
@@ -981,6 +984,26 @@
 		<relationship name="relatedModule">
 			<destination>{79a72c71-5f02-4920-8856-fa90a54b2195}</destination>
 		</relationship>
+	</object>
+	<object class="ADSRModulator" id="{b612900e-6aa1-4c52-8da9-8bb610a919c8}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>0</value>
+		</property>
+		<property name="peakValue">
+			<value>-9.53674316e-07</value>
+		</property>
+		<property name="releaseTime">
+			<value>2615.38501</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{92addc65-eccc-499d-aea7-e4eb1379c842}">
 		<relationship name="effects">
