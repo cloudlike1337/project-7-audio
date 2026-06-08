@@ -434,8 +434,14 @@
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
 		</property>
-		<property name="peakValue">
-			<value>-20</value>
+		<property name="attackTime">
+			<value>200</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>440</value>
 		</property>
 		<property name="sustainValue">
 			<value>-20</value>
