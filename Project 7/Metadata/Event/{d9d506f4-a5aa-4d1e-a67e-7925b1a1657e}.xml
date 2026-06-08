@@ -5,7 +5,7 @@
 			<value>sfx_buy_milk_success</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{69570ad2-4a16-4924-9b3a-2a085a195985}</destination>
@@ -159,6 +159,7 @@
 	<object class="MixerBusEffectChain" id="{9d56a38f-4afb-4288-abbb-ef4466ced4d4}">
 		<relationship name="effects">
 			<destination>{35527e62-df0e-4f87-82a9-2d5456048743}</destination>
+			<destination>{0cdb7bf8-bc33-4182-922c-9b8669219903}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1814de8e-4bfc-4f37-9dc9-5b85217e0f6d}" />
@@ -206,6 +207,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{326b8b39-6dbc-420d-9dd1-5b026790f9bf}" />
 	<object class="MixerBusFader" id="{35527e62-df0e-4f87-82a9-2d5456048743}" />
+	<object class="SpatialiserEffect" id="{0cdb7bf8-bc33-4182-922c-9b8669219903}" />
 	<object class="MixerBusFader" id="{fac6e23e-cc08-4902-88e8-e88a01ee67f9}" />
 	<object class="MixerBusFader" id="{4fc00ba4-6018-46e3-8072-9aacc801513c}" />
 </objects>
