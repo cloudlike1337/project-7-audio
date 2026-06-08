@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{9a70b3d8-798b-4b19-8cc6-f524b4d85c37}">
 		<property name="name">
-			<value>main_endcredits_music</value>
+			<value>music_main_endcredits</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -53,7 +53,7 @@
 			<destination>{405409ff-3fcb-471b-b422-620f1bf4f3d7}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{aad8e44d-5551-43a0-8a93-39c84858f2a4}</destination>
+			<destination>{f466973c-fb2d-4289-b0ef-81c0e0277023}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{f7ab24b7-3d94-44c1-bfa0-e16f6f803b1d}" />

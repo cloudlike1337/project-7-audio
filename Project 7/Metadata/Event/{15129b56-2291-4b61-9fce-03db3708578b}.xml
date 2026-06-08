@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{15129b56-2291-4b61-9fce-03db3708578b}">
 		<property name="name">
-			<value>car_fire</value>
+			<value>amb_car_fire</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{94c029e8-a2a8-484c-ad03-dead4fffa370}</destination>
+			<destination>{0cf82ac7-f37e-4074-8020-b0439b7ddd71}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{b6153c48-887d-4936-aebb-e3441b6f48ca}</destination>
@@ -100,6 +100,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{43774b51-2dba-41a3-8bf2-8c133e4e9243}">
+		<property name="volume">
+			<value>-0.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -130,6 +133,7 @@
 	<object class="MixerBusEffectChain" id="{c2f444cc-c8f2-495c-9f19-e31d49140586}">
 		<relationship name="effects">
 			<destination>{57cd518c-a456-4e9e-8dd5-a6535e044d8c}</destination>
+			<destination>{bcd89d65-27aa-4614-84f1-ddd00bad735a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e31300fd-4668-441a-83dd-9ba8c13a74d7}" />
@@ -141,5 +145,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{d66736bf-647e-4094-9790-d0bcabfb27e9}" />
 	<object class="MixerBusFader" id="{57cd518c-a456-4e9e-8dd5-a6535e044d8c}" />
+	<object class="SpatialiserEffect" id="{bcd89d65-27aa-4614-84f1-ddd00bad735a}" />
 	<object class="MixerBusFader" id="{20cdc513-f4e1-433b-b8c5-0636cab27ae4}" />
 </objects>

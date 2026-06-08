@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{afb929d4-2292-4606-b82b-07b6223a1b36}">
 		<property name="name">
-			<value>main_menu_music</value>
+			<value>music_mainmenu</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -157,10 +157,10 @@
 			<value>volume</value>
 		</property>
 		<property name="initialValue">
-			<value>-80</value>
+			<value>-24.5</value>
 		</property>
 		<property name="attackTime">
-			<value>908.974365</value>
+			<value>780</value>
 		</property>
 		<property name="attackShape">
 			<value>0.112211019</value>
