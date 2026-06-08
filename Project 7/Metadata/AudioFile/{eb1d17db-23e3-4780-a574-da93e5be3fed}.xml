@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{eb1d17db-23e3-4780-a574-da93e5be3fed}">
 		<property name="assetPath">
-			<value>Bells, Misc, Sweet Bell, Cash Register SND59821 1.wav</value>
+			<value>milkstand/Bells, Misc, Sweet Bell, Cash Register SND59821 1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>

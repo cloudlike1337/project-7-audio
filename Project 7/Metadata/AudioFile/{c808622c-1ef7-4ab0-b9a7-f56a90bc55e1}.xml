@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{c808622c-1ef7-4ab0-b9a7-f56a90bc55e1}">
 		<property name="assetPath">
-			<value>Animals, Cat Domestic, Meow, High, With Purrs 02 SND70232.wav</value>
+			<value>cat/Animals, Cat Domestic, Meow, High, With Purrs 02 SND70232.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>

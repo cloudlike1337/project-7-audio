@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{4c666145-698d-4e05-84de-0a24d56fbcf9}">
 		<property name="assetPath">
-			<value>traffic_light_break.wav</value>
+			<value>traffic light/traffic_light_break.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

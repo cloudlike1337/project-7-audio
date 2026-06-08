@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{f795fb3b-ce62-4541-9b9b-1a14102c4a7b}">
 		<property name="assetPath">
-			<value>Electricity, Electromagnetic, Electrifying Unstable Current, Volitale, Sparks 01 SND146438.wav</value>
+			<value>traffic light/Electricity, Electromagnetic, Electrifying Unstable Current, Volitale, Sparks 01 SND146438.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>

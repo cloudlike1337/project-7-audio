@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{95875d66-f1a9-473e-940f-fb227ac85520}">
 		<property name="assetPath">
-			<value>Electricity, Sparks, Idle, Crackle, Sparks SND100218.wav</value>
+			<value>traffic light/Electricity, Sparks, Idle, Crackle, Sparks SND100218.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>

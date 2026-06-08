@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{78c0df46-ba70-462b-aa12-6a738e46dc7d}">
+	<object class="AudioFile" id="{402f931d-3ab3-4c33-9f2f-3cc8ccecad11}">
 		<property name="assetPath">
 			<value>car/car_motor_loop.wav</value>
 		</property>
