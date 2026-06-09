@@ -90,7 +90,10 @@
 	<object class="MixerBusPanner" id="{53d328d9-c5c1-4f89-9a01-a15c21be93d9}" />
 	<object class="SingleSound" id="{6763e3d0-6e58-4e96-aba3-e1fe53d66302}">
 		<property name="length">
-			<value>5.457208333333333</value>
+			<value>4.4000000000000012</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.30000000000000004</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{4d7ade80-c52e-4526-bb79-1814801d3bba}</destination>
@@ -121,10 +124,16 @@
 	<object class="MixerBusEffectChain" id="{afff8898-637c-46b9-97f9-96c487f2ea7b}">
 		<relationship name="effects">
 			<destination>{000f3640-077f-47cf-ad2a-91404ab5d638}</destination>
+			<destination>{004370a3-c5fd-49cb-8d28-54edbb76d155}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c4949866-972b-48ca-a332-0bea280fc9ef}" />
 	<object class="SpatialiserEffect" id="{b96a4f34-b0c2-4a5d-af3f-dde3c289246b}" />
 	<object class="MixerBusFader" id="{c672476b-6524-4de4-98d6-fd42deab2749}" />
 	<object class="MixerBusFader" id="{000f3640-077f-47cf-ad2a-91404ab5d638}" />
+	<object class="ThreeEQEffect" id="{004370a3-c5fd-49cb-8d28-54edbb76d155}">
+		<property name="highGain">
+			<value>-12.5</value>
+		</property>
+	</object>
 </objects>

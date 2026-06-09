@@ -61,6 +61,9 @@
 		<property name="maxVoices">
 			<value>1</value>
 		</property>
+		<property name="maximumDistance">
+			<value>7.80000019</value>
+		</property>
 		<property name="triggerCooldown">
 			<value>2200</value>
 		</property>
@@ -172,6 +175,7 @@
 		<relationship name="effects">
 			<destination>{2270d0c2-1486-48ab-94b0-7aaa69468de8}</destination>
 			<destination>{2bf3cff3-5412-4020-9520-97e303399eef}</destination>
+			<destination>{0c794296-ca45-4535-8707-466f967825f6}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{417b0341-b0e9-429a-8e66-1cd8f022b534}" />
@@ -215,6 +219,11 @@
 	<object class="MixerBusPanner" id="{e02c73a3-994c-4415-bff2-9bb3d7a1cbd2}" />
 	<object class="SpatialiserEffect" id="{2270d0c2-1486-48ab-94b0-7aaa69468de8}" />
 	<object class="MixerBusFader" id="{2bf3cff3-5412-4020-9520-97e303399eef}" />
+	<object class="ThreeEQEffect" id="{0c794296-ca45-4535-8707-466f967825f6}">
+		<property name="lowGain">
+			<value>-9</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{c502900e-f21c-4e78-97fa-afe4f7397234}" />
 	<object class="MixerBusFader" id="{40818351-943f-43af-8ff6-de0dae0e104e}" />
 </objects>

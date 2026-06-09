@@ -5,7 +5,7 @@
 			<value>sfx_death_car</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{e7920b37-a105-4eac-939d-87d893d63527}</destination>
@@ -152,6 +152,7 @@
 	<object class="MixerBusEffectChain" id="{10f6ddeb-6e23-49e5-aaa3-8756ab43b1f7}">
 		<relationship name="effects">
 			<destination>{f60ca780-30dd-4742-a618-6a7e42fec2e4}</destination>
+			<destination>{bbfcfefb-771b-4d43-8177-ccc5aa8553e6}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e31fc44c-40f5-4cf8-a346-58683dc19ae0}" />
@@ -169,6 +170,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{b844310d-8441-4d66-9ad5-56d6dc990d95}" />
 	<object class="MixerBusFader" id="{f60ca780-30dd-4742-a618-6a7e42fec2e4}" />
+	<object class="SpatialiserEffect" id="{bbfcfefb-771b-4d43-8177-ccc5aa8553e6}" />
 	<object class="MixerBusFader" id="{534bdc75-aabf-4732-9ecf-735cc33fa1d0}" />
 	<object class="MixerBusFader" id="{b89fd383-0fe3-46e1-a3ed-78888f9c6cf0}" />
 </objects>

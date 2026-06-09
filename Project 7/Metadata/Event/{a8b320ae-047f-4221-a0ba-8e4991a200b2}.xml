@@ -5,7 +5,7 @@
 			<value>korvdude_ascends</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{f72d9d8a-e2a6-42b7-96b3-8d10fda30896}</destination>
@@ -148,6 +148,7 @@
 	<object class="MixerBusEffectChain" id="{7c89bdad-06af-48ae-a78a-605fe628b627}">
 		<relationship name="effects">
 			<destination>{75785efc-48ad-4a4d-b88e-d45833ea16ba}</destination>
+			<destination>{ab63692c-bc60-4fe2-b99a-ccc898c02300}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1454ac1d-d263-4281-8855-b5103ac3b40d}" />
@@ -165,6 +166,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{ca6a3c84-0dd8-41af-8069-c67c5dc0583a}" />
 	<object class="MixerBusFader" id="{75785efc-48ad-4a4d-b88e-d45833ea16ba}" />
+	<object class="SpatialiserEffect" id="{ab63692c-bc60-4fe2-b99a-ccc898c02300}" />
 	<object class="MixerBusFader" id="{760b5c20-5f18-4c44-a0a3-bf69a33ecbcc}" />
 	<object class="MixerBusFader" id="{69568733-0816-4347-936b-fa9a1cb3343f}" />
 </objects>

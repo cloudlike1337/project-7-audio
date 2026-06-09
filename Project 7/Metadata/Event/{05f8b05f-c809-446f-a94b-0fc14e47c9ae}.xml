@@ -67,7 +67,7 @@
 			<value>3</value>
 		</property>
 		<property name="maximumDistance">
-			<value>12</value>
+			<value>10</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{2d0d0bec-b0d2-4f8c-abb9-28f314dc8e8e}" />
@@ -245,7 +245,7 @@
 			<value>18</value>
 		</property>
 		<property name="spawnRate">
-			<value>46</value>
+			<value>32</value>
 		</property>
 		<property name="minimumScatterDistance">
 			<value>0</value>
@@ -261,6 +261,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{bff174fe-2704-492b-a417-5e598e91dd22}">
+		<property name="volume">
+			<value>-5.5</value>
+		</property>
 		<property name="name">
 			<value>klink</value>
 		</property>

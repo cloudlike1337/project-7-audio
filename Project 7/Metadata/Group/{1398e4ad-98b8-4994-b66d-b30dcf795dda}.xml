@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{1398e4ad-98b8-4994-b66d-b30dcf795dda}">
+		<property name="name">
+			<value>Easter Egg</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{9809fd88-5931-4fc1-a218-0e66e3cebd5e}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{2d287c4e-6dca-47c5-9d8a-45ff8175e226}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{aad8e44d-5551-43a0-8a93-39c84858f2a4}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{9809fd88-5931-4fc1-a218-0e66e3cebd5e}">
+		<relationship name="effects">
+			<destination>{fc64e1a6-1bff-42b6-bb52-65a4f0ba25ec}</destination>
+			<destination>{5c6f5611-45b0-4307-b37b-3fc89334fa52}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{2d287c4e-6dca-47c5-9d8a-45ff8175e226}" />
+	<object class="MixerBusFader" id="{fc64e1a6-1bff-42b6-bb52-65a4f0ba25ec}" />
+	<object class="SFXReverbEffect" id="{5c6f5611-45b0-4307-b37b-3fc89334fa52}">
+		<property name="decayTime">
+			<value>2300</value>
+		</property>
+		<property name="earlyDelay">
+			<value>12</value>
+		</property>
+		<property name="lateDelay">
+			<value>17</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>64</value>
+		</property>
+		<property name="highCut">
+			<value>7800</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>71</value>
+		</property>
+		<property name="wetLevel">
+			<value>-8.5</value>
+		</property>
+	</object>
+</objects>

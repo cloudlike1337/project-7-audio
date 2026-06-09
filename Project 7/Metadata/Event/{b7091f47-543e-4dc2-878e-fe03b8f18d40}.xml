@@ -71,6 +71,9 @@
 		<property name="voiceStealing">
 			<value>2</value>
 		</property>
+		<property name="maximumDistance">
+			<value>8.60000038</value>
+		</property>
 	</object>
 	<object class="MarkerTrack" id="{e679f479-3104-4499-8e25-8d448a453f57}" />
 	<object class="GroupTrack" id="{3a9b52d5-14da-4436-a6ab-e3c3482ce42f}">
@@ -416,7 +419,6 @@
 		</relationship>
 		<relationship name="automationPoints">
 			<destination>{bd3f39ce-ac75-465c-8665-1c07f2eb09af}</destination>
-			<destination>{3234c3e2-74b1-42fb-b136-79f481bfb51e}</destination>
 			<destination>{06ab96e4-566a-47a8-ba7a-2e7d382f24f4}</destination>
 		</relationship>
 	</object>
@@ -424,32 +426,21 @@
 	<object class="MixerBusFader" id="{c2f47bd4-d263-45bc-a5ac-d9ad499e2e19}" />
 	<object class="AutomationPoint" id="{bd3f39ce-ac75-465c-8665-1c07f2eb09af}">
 		<property name="position">
-			<value>19</value>
+			<value>3</value>
 		</property>
 		<property name="value">
 			<value>0</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{3234c3e2-74b1-42fb-b136-79f481bfb51e}">
+	<object class="AutomationPoint" id="{06ab96e4-566a-47a8-ba7a-2e7d382f24f4}">
 		<property name="position">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<property name="value">
 			<value>100</value>
 		</property>
 		<property name="curveShape">
 			<value>1</value>
-		</property>
-		<property name="isSCurve">
-			<value>true</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{06ab96e4-566a-47a8-ba7a-2e7d382f24f4}">
-		<property name="position">
-			<value>5</value>
-		</property>
-		<property name="value">
-			<value>100</value>
 		</property>
 	</object>
 </objects>

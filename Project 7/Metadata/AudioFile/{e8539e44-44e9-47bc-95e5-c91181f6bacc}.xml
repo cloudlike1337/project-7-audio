@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{27e85ae3-2dbb-48a1-adc1-805b5524bd31}">
+	<object class="AudioFile" id="{e8539e44-44e9-47bc-95e5-c91181f6bacc}">
 		<property name="assetPath">
-			<value>sfx_easter_egg_drone.wav</value>
+			<value>Caramelldansen from another room (full version) - Tainted metadodic (128k).mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
@@ -14,7 +14,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>31.179591836734694</value>
+			<value>177.42367346938775</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{bf258112-7989-49b9-a200-870b9ba1f939}</destination>
