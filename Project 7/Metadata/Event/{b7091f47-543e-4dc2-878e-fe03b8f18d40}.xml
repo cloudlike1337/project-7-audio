@@ -156,9 +156,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{65c9b7f0-8ec4-4ea2-9db1-0e0b090aa828}">
-		<property name="volume">
-			<value>-10.5</value>
-		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -213,9 +210,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{b213fb58-c6cb-47d5-bc7b-83cdff5f2806}">
-		<property name="volume">
-			<value>-13</value>
-		</property>
 		<property name="name">
 			<value>Audio 3</value>
 		</property>
@@ -263,9 +257,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d673970c-f27d-4d08-8ecf-a21fae307171}">
-		<property name="volume">
-			<value>-15.5</value>
-		</property>
 		<property name="name">
 			<value>Audio 5</value>
 		</property>
@@ -426,6 +417,7 @@
 		<relationship name="automationPoints">
 			<destination>{bd3f39ce-ac75-465c-8665-1c07f2eb09af}</destination>
 			<destination>{3234c3e2-74b1-42fb-b136-79f481bfb51e}</destination>
+			<destination>{06ab96e4-566a-47a8-ba7a-2e7d382f24f4}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{3b41e7e4-59b4-4821-90a6-7eeae5a46355}" />
@@ -446,10 +438,18 @@
 			<value>100</value>
 		</property>
 		<property name="curveShape">
-			<value>0.5</value>
+			<value>1</value>
 		</property>
 		<property name="isSCurve">
 			<value>true</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{06ab96e4-566a-47a8-ba7a-2e7d382f24f4}">
+		<property name="position">
+			<value>5</value>
+		</property>
+		<property name="value">
+			<value>100</value>
 		</property>
 	</object>
 </objects>
