@@ -4,6 +4,9 @@
 		<property name="name">
 			<value>Music_3d</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{03036911-b03f-45d2-b5dc-d3463db983b4}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{616d7f5e-0d95-4301-b458-e81e9546d2ed}</destination>
 		</relationship>
@@ -13,6 +16,14 @@
 		<relationship name="output">
 			<destination>{2e3a9e02-8b00-4c29-aa8c-68d6926cf427}</destination>
 		</relationship>
+	</object>
+	<object class="SeekModulator" id="{03036911-b03f-45d2-b5dc-d3463db983b4}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.77999997138977051</value>
+		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{616d7f5e-0d95-4301-b458-e81e9546d2ed}">
 		<relationship name="effects">

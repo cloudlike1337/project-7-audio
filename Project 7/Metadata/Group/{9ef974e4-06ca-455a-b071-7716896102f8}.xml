@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{9ef974e4-06ca-455a-b071-7716896102f8}">
+		<property name="name">
+			<value>laptop_loop</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{16e60bab-80ae-4ff3-80e9-9e6e7e2a80fe}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{0e1b4eb5-00af-4dda-bf13-b3cd4d385924}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{79d53f82-1fa0-41c2-8caf-8e2d37cb7e27}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{16e60bab-80ae-4ff3-80e9-9e6e7e2a80fe}">
+		<relationship name="effects">
+			<destination>{2ff28521-879d-4fd2-b816-d78646a98678}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{0e1b4eb5-00af-4dda-bf13-b3cd4d385924}" />
+	<object class="MixerBusFader" id="{2ff28521-879d-4fd2-b816-d78646a98678}" />
+</objects>

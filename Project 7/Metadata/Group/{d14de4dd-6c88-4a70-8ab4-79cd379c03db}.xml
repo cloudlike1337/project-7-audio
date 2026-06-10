@@ -4,6 +4,9 @@
 		<property name="name">
 			<value>Global Ambience</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{a9c316a9-81b8-407c-8bf6-38785f4b99fc}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{42e1db74-a579-4d96-aaaf-4121965ce286}</destination>
 		</relationship>
@@ -13,6 +16,14 @@
 		<relationship name="output">
 			<destination>{4d42174f-0b61-4d8c-9809-f02fc3d3d902}</destination>
 		</relationship>
+	</object>
+	<object class="SeekModulator" id="{a9c316a9-81b8-407c-8bf6-38785f4b99fc}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.82999998331069946</value>
+		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{42e1db74-a579-4d96-aaaf-4121965ce286}">
 		<relationship name="effects">
