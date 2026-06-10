@@ -38,6 +38,8 @@
 		</property>
 		<relationship name="sidechains">
 			<destination>{a6727a39-ff7d-4b03-a39c-398efdf2545a}</destination>
+			<destination>{5a33592c-455e-4793-ab33-44365d0c17b5}</destination>
+			<destination>{ae3d573d-636b-43cd-8d10-90accf56e679}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{8083850a-1bad-49fc-a06a-448e60f8dd3e}">
