@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{6a64050e-5c09-4f21-b061-da3f5340ac83}">
+		<property name="assetPath">
+			<value>sfx_car_caramelldansen_loop.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>11.638249999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bf258112-7989-49b9-a200-870b9ba1f939}</destination>
+		</relationship>
+	</object>
+</objects>
